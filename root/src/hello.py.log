@@ -1,0 +1,1468 @@
+execve("/root/.pyenv/shims/python", ["python", "./hello.py"], [/* 14 vars */]) = 0 <0.005460>
+brk(NULL)                               = 0xc26000 <0.000401>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000228>
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory) <0.000228>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000408>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000171>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fb876b33000 <0.000357>
+close(3)                                = 0 <0.000226>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000208>
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000154>
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832 <0.000153>
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0 <0.000347>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb876b32000 <0.000283>
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb87654a000 <0.000434>
+mprotect(0x7fb87670a000, 2097152, PROT_NONE) = 0 <0.000434>
+mmap(0x7fb87690a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7fb87690a000 <0.000124>
+mmap(0x7fb876910000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb876910000 <0.000252>
+close(3)                                = 0 <0.000245>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb876b31000 <0.000238>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb876b30000 <0.000163>
+arch_prctl(ARCH_SET_FS, 0x7fb876b31700) = 0 <0.000192>
+mprotect(0x7fb87690a000, 16384, PROT_READ) = 0 <0.000195>
+mprotect(0x606000, 4096, PROT_READ)     = 0 <0.000243>
+mprotect(0x7fb876b39000, 4096, PROT_READ) = 0 <0.000170>
+munmap(0x7fb876b33000, 23723)           = 0 <0.000252>
+brk(NULL)                               = 0xc26000 <0.000236>
+brk(0xc47000)                           = 0xc47000 <0.000218>
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000137>
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000115>
+open("/usr/lib/locale/en_GB.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000114>
+open("/usr/lib/locale/en_GB.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000113>
+open("/usr/lib/locale/en_GB/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000121>
+open("/usr/lib/locale/en.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000113>
+open("/usr/lib/locale/en.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000121>
+open("/usr/lib/locale/en/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000160>
+execve("/root/.pyenv/shims/bash", ["bash", "/root/.pyenv/shims/python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.001494>
+execve("/root/.pyenv/shims/bash", ["bash", "/root/.pyenv/shims/python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000182>
+execve("/usr/local/sbin/bash", ["bash", "/root/.pyenv/shims/python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000148>
+execve("/usr/local/bin/bash", ["bash", "/root/.pyenv/shims/python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000239>
+execve("/usr/sbin/bash", ["bash", "/root/.pyenv/shims/python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000150>
+execve("/usr/bin/bash", ["bash", "/root/.pyenv/shims/python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000095>
+execve("/sbin/bash", ["bash", "/root/.pyenv/shims/python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000096>
+execve("/bin/bash", ["bash", "/root/.pyenv/shims/python", "./hello.py"], [/* 14 vars */]) = 0 <0.000403>
+brk(NULL)                               = 0x1ee9000 <0.000093>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000145>
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory) <0.000167>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000092>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000134>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f43cf13a000 <0.000160>
+close(3)                                = 0 <0.000089>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000092>
+open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3 <0.000134>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\310\0\0\0\0\0\0"..., 832) = 832 <0.000139>
+fstat(3, {st_mode=S_IFREG|0644, st_size=167240, ...}) = 0 <0.000194>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43cf139000 <0.000092>
+mmap(NULL, 2264256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f43cecf2000 <0.000092>
+mprotect(0x7f43ced17000, 2093056, PROT_NONE) = 0 <0.000133>
+mmap(0x7f43cef16000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7f43cef16000 <0.000210>
+close(3)                                = 0 <0.000135>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000086>
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000092>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832 <0.000092>
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0 <0.000092>
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f43ceaee000 <0.000093>
+mprotect(0x7f43ceaf1000, 2093056, PROT_NONE) = 0 <0.000141>
+mmap(0x7f43cecf0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f43cecf0000 <0.000089>
+close(3)                                = 0 <0.000134>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000150>
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000090>
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832 <0.000092>
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0 <0.000091>
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f43ce724000 <0.000134>
+mprotect(0x7f43ce8e4000, 2097152, PROT_NONE) = 0 <0.000135>
+mmap(0x7f43ceae4000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f43ceae4000 <0.000158>
+mmap(0x7f43ceaea000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f43ceaea000 <0.000087>
+close(3)                                = 0 <0.000148>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43cf138000 <0.000138>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43cf137000 <0.000205>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43cf136000 <0.000092>
+arch_prctl(ARCH_SET_FS, 0x7f43cf137700) = 0 <0.000092>
+mprotect(0x7f43ceae4000, 16384, PROT_READ) = 0 <0.000086>
+mprotect(0x7f43cecf0000, 4096, PROT_READ) = 0 <0.000092>
+mprotect(0x7f43cef16000, 16384, PROT_READ) = 0 <0.000091>
+mprotect(0x6f3000, 4096, PROT_READ)     = 0 <0.000092>
+mprotect(0x7f43cf140000, 4096, PROT_READ) = 0 <0.000086>
+munmap(0x7f43cf13a000, 23723)           = 0 <0.000092>
+open("/dev/tty", O_RDWR|O_NONBLOCK)     = 3 <0.000181>
+close(3)                                = 0 <0.000089>
+brk(NULL)                               = 0x1ee9000 <0.000090>
+brk(0x1eea000)                          = 0x1eea000 <0.000092>
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000091>
+brk(0x1eeb000)                          = 0x1eeb000 <0.000092>
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000089>
+open("/usr/lib/locale/en_GB.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000088>
+open("/usr/lib/locale/en_GB.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000087>
+open("/usr/lib/locale/en_GB/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000138>
+open("/usr/lib/locale/en.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000086>
+open("/usr/lib/locale/en.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000085>
+open("/usr/lib/locale/en/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000087>
+getuid()                                = 0 <0.000090>
+getgid()                                = 0 <0.000191>
+geteuid()                               = 0 <0.000133>
+getegid()                               = 0 <0.000092>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000091>
+brk(0x1eec000)                          = 0x1eec000 <0.000129>
+sysinfo({uptime=88393, loads=[26368, 26048, 27552], totalram=2086154240, freeram=373321728, sharedram=753664, bufferram=114638848, totalswap=1073737728, freeswap=1071640576, procs=402, totalhigh=0, freehigh=0, mem_unit=1}) = 0 <0.000133>
+brk(0x1eed000)                          = 0x1eed000 <0.000092>
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f43ce7594b0}, {SIG_DFL, [], 0}, 8) = 0 <0.000086>
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f43ce7594b0}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f43ce7594b0}, 8) = 0 <0.000087>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f43ce7594b0}, {SIG_DFL, [], 0}, 8) = 0 <0.000086>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f43ce7594b0}, {SIG_DFL, [], SA_RESTORER, 0x7f43ce7594b0}, 8) = 0 <0.000086>
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f43ce7594b0}, {SIG_DFL, [], 0}, 8) = 0 <0.000092>
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f43ce7594b0}, {SIG_DFL, [], SA_RESTORER, 0x7f43ce7594b0}, 8) = 0 <0.000089>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000153>
+rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x7f43ce7594b0}, {SIG_DFL, [], SA_RESTORER, 0x7f43ce7594b0}, 8) = 0 <0.000086>
+uname({sysname="Linux", nodename="851cdb8cbd1c", ...}) = 0 <0.000133>
+brk(0x1eee000)                          = 0x1eee000 <0.000146>
+stat("/root/src", {st_mode=S_IFDIR|0755, st_size=352, ...}) = 0 <0.001124>
+stat(".", {st_mode=S_IFDIR|0755, st_size=352, ...}) = 0 <0.000522>
+getpid()                                = 13943 <0.000162>
+getppid()                               = 13941 <0.000114>
+stat(".", {st_mode=S_IFDIR|0755, st_size=352, ...}) = 0 <0.000529>
+stat("/root/.pyenv/shims/bash", 0x7ffcc0d50620) = -1 ENOENT (No such file or directory) <0.001417>
+stat("/root/.pyenv/shims/bash", 0x7ffcc0d50620) = -1 ENOENT (No such file or directory) <0.000091>
+stat("/usr/local/sbin/bash", 0x7ffcc0d50620) = -1 ENOENT (No such file or directory) <0.000133>
+stat("/usr/local/bin/bash", 0x7ffcc0d50620) = -1 ENOENT (No such file or directory) <0.000091>
+stat("/usr/sbin/bash", 0x7ffcc0d50620)  = -1 ENOENT (No such file or directory) <0.000137>
+stat("/usr/bin/bash", 0x7ffcc0d50620)   = -1 ENOENT (No such file or directory) <0.000093>
+stat("/sbin/bash", 0x7ffcc0d50620)      = -1 ENOENT (No such file or directory) <0.000152>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000183>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000199>
+geteuid()                               = 0 <0.000086>
+getegid()                               = 0 <0.000144>
+getuid()                                = 0 <0.000158>
+getgid()                                = 0 <0.000124>
+access("/bin/bash", X_OK)               = 0 <0.000156>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000151>
+geteuid()                               = 0 <0.000155>
+getegid()                               = 0 <0.000155>
+getuid()                                = 0 <0.000145>
+getgid()                                = 0 <0.000081>
+access("/bin/bash", R_OK)               = 0 <0.000154>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000151>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000143>
+geteuid()                               = 0 <0.000163>
+getegid()                               = 0 <0.000156>
+getuid()                                = 0 <0.000152>
+getgid()                                = 0 <0.000160>
+access("/bin/bash", X_OK)               = 0 <0.000156>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000146>
+geteuid()                               = 0 <0.000139>
+getegid()                               = 0 <0.000165>
+getuid()                                = 0 <0.000160>
+getgid()                                = 0 <0.000225>
+access("/bin/bash", R_OK)               = 0 <0.000165>
+brk(0x1eef000)                          = 0x1eef000 <0.000154>
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3 <0.000164>
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory) <0.000167>
+close(3)                                = 0 <0.000178>
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3 <0.000146>
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory) <0.000230>
+close(3)                                = 0 <0.000190>
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3 <0.000091>
+fstat(3, {st_mode=S_IFREG|0644, st_size=497, ...}) = 0 <0.000092>
+brk(0x1ef1000)                          = 0x1ef1000 <0.000085>
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 497 <0.000190>
+brk(0x1ef2000)                          = 0x1ef2000 <0.000089>
+read(3, "", 4096)                       = 0 <0.000092>
+close(3)                                = 0 <0.000091>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000090>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000092>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f43cf13a000 <0.000138>
+close(3)                                = 0 <0.000133>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000121>
+open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000250>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\22\0\0\0\0\0\0"..., 832) = 832 <0.000166>
+fstat(3, {st_mode=S_IFREG|0644, st_size=35688, ...}) = 0 <0.000117>
+mmap(NULL, 2131040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f43ce51b000 <0.000111>
+mprotect(0x7f43ce523000, 2093056, PROT_NONE) = 0 <0.000114>
+mmap(0x7f43ce722000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f43ce722000 <0.000166>
+close(3)                                = 0 <0.000165>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000118>
+open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3 <0.000117>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0"..., 832) = 832 <0.000116>
+fstat(3, {st_mode=S_IFREG|0644, st_size=93128, ...}) = 0 <0.000119>
+mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f43ce302000 <0.000117>
+mprotect(0x7f43ce318000, 2093056, PROT_NONE) = 0 <0.000114>
+mmap(0x7f43ce517000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f43ce517000 <0.000117>
+mmap(0x7f43ce519000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f43ce519000 <0.000117>
+close(3)                                = 0 <0.000119>
+mprotect(0x7f43ce517000, 4096, PROT_READ) = 0 <0.000153>
+mprotect(0x7f43ce722000, 4096, PROT_READ) = 0 <0.000111>
+munmap(0x7f43cf13a000, 23723)           = 0 <0.000111>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000118>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000118>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f43cf13a000 <0.000115>
+close(3)                                = 0 <0.000117>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000114>
+open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000241>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0"..., 832) = 832 <0.000118>
+fstat(3, {st_mode=S_IFREG|0644, st_size=47648, ...}) = 0 <0.000117>
+mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f43ce0f6000 <0.000111>
+mprotect(0x7f43ce101000, 2093056, PROT_NONE) = 0 <0.000117>
+mmap(0x7f43ce300000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f43ce300000 <0.000173>
+close(3)                                = 0 <0.000118>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000117>
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000117>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0"..., 832) = 832 <0.000118>
+fstat(3, {st_mode=S_IFREG|0644, st_size=47600, ...}) = 0 <0.000161>
+mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f43cdee4000 <0.000118>
+mprotect(0x7f43cdeef000, 2093056, PROT_NONE) = 0 <0.000114>
+mmap(0x7f43ce0ee000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f43ce0ee000 <0.000173>
+mmap(0x7f43ce0f0000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f43ce0f0000 <0.000184>
+close(3)                                = 0 <0.000253>
+mprotect(0x7f43ce0ee000, 4096, PROT_READ) = 0 <0.000116>
+mprotect(0x7f43ce300000, 4096, PROT_READ) = 0 <0.000118>
+munmap(0x7f43cf13a000, 23723)           = 0 <0.000163>
+brk(0x1ef3000)                          = 0x1ef3000 <0.000118>
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3 <0.000167>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000167>
+fstat(3, {st_mode=S_IFREG|0644, st_size=1239, ...}) = 0 <0.000114>
+mmap(NULL, 1239, PROT_READ, MAP_SHARED, 3, 0) = 0x7f43cf13f000 <0.000158>
+lseek(3, 1239, SEEK_SET)                = 1239 <0.000114>
+munmap(0x7f43cf13f000, 1239)            = 0 <0.000202>
+close(3)                                = 0 <0.000117>
+gettimeofday({1586871294, 348577}, NULL) = 0 <0.000111>
+brk(0x1ef4000)                          = 0x1ef4000 <0.000110>
+getpgrp()                               = 13941 <0.000107>
+rt_sigaction(SIGCHLD, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f43ce7594b0}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f43ce7594b0}, 8) = 0 <0.000107>
+getrlimit(RLIMIT_NPROC, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0 <0.000114>
+brk(0x1ef5000)                          = 0x1ef5000 <0.000106>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000107>
+open("/root/.pyenv/shims/python", O_RDONLY) = 3 <0.001978>
+ioctl(3, TCGETS, 0x7ffcc0d50920)        = -1 ENOSYS (Function not implemented) <0.000492>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000153>
+read(3, "#!/usr/bin/env bash\nset -e\n[ -n "..., 80) = 80 <0.000517>
+lseek(3, 0, SEEK_SET)                   = 0 <0.000111>
+getrlimit(RLIMIT_NOFILE, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0 <0.000113>
+fcntl(255, F_GETFD)                     = -1 EBADF (Bad file descriptor) <0.000113>
+dup2(3, 255)                            = 255 <0.000158>
+close(3)                                = 0 <0.000495>
+fcntl(255, F_SETFD, FD_CLOEXEC)         = 0 <0.000153>
+fcntl(255, F_GETFL)                     = 0x8000 (flags O_RDONLY|O_LARGEFILE) <0.000114>
+fstat(255, {st_mode=S_IFREG|0755, st_size=390, ...}) = 0 <0.000545>
+lseek(255, 0, SEEK_CUR)                 = 0 <0.000168>
+brk(0x1ef6000)                          = 0x1ef6000 <0.000172>
+read(255, "#!/usr/bin/env bash\nset -e\n[ -n "..., 390) = 390 <0.000175>
+brk(0x1ef7000)                          = 0x1ef7000 <0.000173>
+stat("./hello.py", {st_mode=S_IFREG|0755, st_size=22, ...}) = 0 <0.001084>
+brk(0x1ef8000)                          = 0x1ef8000 <0.000180>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f43ce7594b0}, {SIG_DFL, [], SA_RESTORER, 0x7f43ce7594b0}, 8) = 0 <0.000175>
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f43ce7594b0}, {SIG_IGN, [], SA_RESTORER, 0x7f43ce7594b0}, 8) = 0 <0.000167>
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f43ce7594b0}, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f43ce7594b0}, 8) = 0 <0.000168>
+execve("/root/.pyenv/libexec/pyenv", ["/root/.pyenv/libexec/pyenv", "exec", "python", "./hello.py"], [/* 13 vars */]) = 0 <0.005037>
+brk(NULL)                               = 0x133a000 <0.000222>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000140>
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory) <0.000139>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000142>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000142>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f8c4e6b0000 <0.000139>
+close(3)                                = 0 <0.000188>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000148>
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000158>
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832 <0.000138>
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0 <0.000139>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c4e6af000 <0.000149>
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8c4e0c7000 <0.000139>
+mprotect(0x7f8c4e287000, 2097152, PROT_NONE) = 0 <0.000142>
+mmap(0x7f8c4e487000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f8c4e487000 <0.000147>
+mmap(0x7f8c4e48d000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8c4e48d000 <0.000179>
+close(3)                                = 0 <0.000136>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c4e6ae000 <0.000136>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8c4e6ad000 <0.000140>
+arch_prctl(ARCH_SET_FS, 0x7f8c4e6ae700) = 0 <0.000184>
+mprotect(0x7f8c4e487000, 16384, PROT_READ) = 0 <0.000144>
+mprotect(0x606000, 4096, PROT_READ)     = 0 <0.000140>
+mprotect(0x7f8c4e6b6000, 4096, PROT_READ) = 0 <0.000141>
+munmap(0x7f8c4e6b0000, 23723)           = 0 <0.000143>
+brk(NULL)                               = 0x133a000 <0.000137>
+brk(0x135b000)                          = 0x135b000 <0.000179>
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000145>
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000148>
+open("/usr/lib/locale/en_GB.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000139>
+open("/usr/lib/locale/en_GB.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000145>
+open("/usr/lib/locale/en_GB/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000143>
+open("/usr/lib/locale/en.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000139>
+open("/usr/lib/locale/en.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000139>
+open("/usr/lib/locale/en/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000139>
+execve("/root/.pyenv/shims/bash", ["bash", "/root/.pyenv/libexec/pyenv", "exec", "python", "./hello.py"], [/* 13 vars */]) = -1 ENOENT (No such file or directory) <0.001361>
+execve("/root/.pyenv/shims/bash", ["bash", "/root/.pyenv/libexec/pyenv", "exec", "python", "./hello.py"], [/* 13 vars */]) = -1 ENOENT (No such file or directory) <0.000136>
+execve("/usr/local/sbin/bash", ["bash", "/root/.pyenv/libexec/pyenv", "exec", "python", "./hello.py"], [/* 13 vars */]) = -1 ENOENT (No such file or directory) <0.000200>
+execve("/usr/local/bin/bash", ["bash", "/root/.pyenv/libexec/pyenv", "exec", "python", "./hello.py"], [/* 13 vars */]) = -1 ENOENT (No such file or directory) <0.000141>
+execve("/usr/sbin/bash", ["bash", "/root/.pyenv/libexec/pyenv", "exec", "python", "./hello.py"], [/* 13 vars */]) = -1 ENOENT (No such file or directory) <0.000146>
+execve("/usr/bin/bash", ["bash", "/root/.pyenv/libexec/pyenv", "exec", "python", "./hello.py"], [/* 13 vars */]) = -1 ENOENT (No such file or directory) <0.000144>
+execve("/sbin/bash", ["bash", "/root/.pyenv/libexec/pyenv", "exec", "python", "./hello.py"], [/* 13 vars */]) = -1 ENOENT (No such file or directory) <0.000150>
+execve("/bin/bash", ["bash", "/root/.pyenv/libexec/pyenv", "exec", "python", "./hello.py"], [/* 13 vars */]) = 0 <0.000361>
+brk(NULL)                               = 0x1312000 <0.000093>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000139>
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory) <0.000141>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000145>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000143>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f725e343000 <0.000141>
+close(3)                                = 0 <0.000136>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000144>
+open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3 <0.000146>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\310\0\0\0\0\0\0"..., 832) = 832 <0.000139>
+fstat(3, {st_mode=S_IFREG|0644, st_size=167240, ...}) = 0 <0.000149>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f725e342000 <0.000138>
+mmap(NULL, 2264256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f725defb000 <0.000140>
+mprotect(0x7f725df20000, 2093056, PROT_NONE) = 0 <0.000140>
+mmap(0x7f725e11f000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7f725e11f000 <0.000147>
+close(3)                                = 0 <0.000196>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000143>
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000148>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832 <0.000137>
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0 <0.000133>
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f725dcf7000 <0.000166>
+mprotect(0x7f725dcfa000, 2093056, PROT_NONE) = 0 <0.000142>
+mmap(0x7f725def9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f725def9000 <0.000142>
+close(3)                                = 0 <0.000138>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000191>
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000192>
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832 <0.000143>
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0 <0.000137>
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f725d92d000 <0.000139>
+mprotect(0x7f725daed000, 2097152, PROT_NONE) = 0 <0.000138>
+mmap(0x7f725dced000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f725dced000 <0.000143>
+mmap(0x7f725dcf3000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f725dcf3000 <0.000145>
+close(3)                                = 0 <0.000135>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f725e341000 <0.000143>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f725e340000 <0.000187>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f725e33f000 <0.000136>
+arch_prctl(ARCH_SET_FS, 0x7f725e340700) = 0 <0.000137>
+mprotect(0x7f725dced000, 16384, PROT_READ) = 0 <0.000139>
+mprotect(0x7f725def9000, 4096, PROT_READ) = 0 <0.000178>
+mprotect(0x7f725e11f000, 16384, PROT_READ) = 0 <0.000138>
+mprotect(0x6f3000, 4096, PROT_READ)     = 0 <0.000139>
+mprotect(0x7f725e349000, 4096, PROT_READ) = 0 <0.000144>
+munmap(0x7f725e343000, 23723)           = 0 <0.000134>
+open("/dev/tty", O_RDWR|O_NONBLOCK)     = 3 <0.000155>
+close(3)                                = 0 <0.000140>
+brk(NULL)                               = 0x1312000 <0.000135>
+brk(0x1313000)                          = 0x1313000 <0.000134>
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000188>
+brk(0x1314000)                          = 0x1314000 <0.000135>
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000139>
+open("/usr/lib/locale/en_GB.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000146>
+open("/usr/lib/locale/en_GB.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000089>
+open("/usr/lib/locale/en_GB/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000143>
+open("/usr/lib/locale/en.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000139>
+open("/usr/lib/locale/en.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000145>
+open("/usr/lib/locale/en/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000139>
+getuid()                                = 0 <0.000136>
+getgid()                                = 0 <0.000137>
+geteuid()                               = 0 <0.000134>
+getegid()                               = 0 <0.000135>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000137>
+brk(0x1315000)                          = 0x1315000 <0.000158>
+sysinfo({uptime=88393, loads=[26368, 26048, 27552], totalram=2086154240, freeram=373522432, sharedram=753664, bufferram=114638848, totalswap=1073737728, freeswap=1071640576, procs=402, totalhigh=0, freehigh=0, mem_unit=1}) = 0 <0.000152>
+brk(0x1316000)                          = 0x1316000 <0.000136>
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, {SIG_DFL, [], 0}, 8) = 0 <0.000140>
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, 8) = 0 <0.000134>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, {SIG_DFL, [], 0}, 8) = 0 <0.000184>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000139>
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, {SIG_DFL, [], 0}, 8) = 0 <0.000135>
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000135>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000143>
+rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x7f725d9624b0}, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000140>
+uname({sysname="Linux", nodename="851cdb8cbd1c", ...}) = 0 <0.000139>
+brk(0x1317000)                          = 0x1317000 <0.000141>
+stat("/root/src", {st_mode=S_IFDIR|0755, st_size=352, ...}) = 0 <0.001038>
+stat(".", {st_mode=S_IFDIR|0755, st_size=352, ...}) = 0 <0.000528>
+getpid()                                = 13943 <0.000142>
+getppid()                               = 13941 <0.000171>
+stat(".", {st_mode=S_IFDIR|0755, st_size=352, ...}) = 0 <0.000616>
+stat("/root/.pyenv/shims/bash", 0x7fff6fd39590) = -1 ENOENT (No such file or directory) <0.001426>
+stat("/root/.pyenv/shims/bash", 0x7fff6fd39590) = -1 ENOENT (No such file or directory) <0.000128>
+stat("/usr/local/sbin/bash", 0x7fff6fd39590) = -1 ENOENT (No such file or directory) <0.000167>
+stat("/usr/local/bin/bash", 0x7fff6fd39590) = -1 ENOENT (No such file or directory) <0.000118>
+stat("/usr/sbin/bash", 0x7fff6fd39590)  = -1 ENOENT (No such file or directory) <0.000160>
+stat("/usr/bin/bash", 0x7fff6fd39590)   = -1 ENOENT (No such file or directory) <0.000151>
+stat("/sbin/bash", 0x7fff6fd39590)      = -1 ENOENT (No such file or directory) <0.000106>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000108>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000115>
+geteuid()                               = 0 <0.000112>
+getegid()                               = 0 <0.000113>
+getuid()                                = 0 <0.000111>
+getgid()                                = 0 <0.000187>
+access("/bin/bash", X_OK)               = 0 <0.000197>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000191>
+geteuid()                               = 0 <0.000174>
+getegid()                               = 0 <0.000181>
+getuid()                                = 0 <0.000252>
+getgid()                                = 0 <0.000191>
+access("/bin/bash", R_OK)               = 0 <0.000188>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000193>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000184>
+geteuid()                               = 0 <0.000179>
+getegid()                               = 0 <0.000186>
+getuid()                                = 0 <0.000180>
+getgid()                                = 0 <0.000195>
+access("/bin/bash", X_OK)               = 0 <0.000188>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000183>
+geteuid()                               = 0 <0.000184>
+getegid()                               = 0 <0.000106>
+getuid()                                = 0 <0.000180>
+getgid()                                = 0 <0.000179>
+access("/bin/bash", R_OK)               = 0 <0.000186>
+brk(0x1318000)                          = 0x1318000 <0.000186>
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3 <0.000210>
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory) <0.000194>
+close(3)                                = 0 <0.000190>
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3 <0.000123>
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory) <0.000218>
+close(3)                                = 0 <0.000107>
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3 <0.000157>
+fstat(3, {st_mode=S_IFREG|0644, st_size=497, ...}) = 0 <0.000115>
+brk(0x131a000)                          = 0x131a000 <0.000212>
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 497 <0.000107>
+brk(0x131b000)                          = 0x131b000 <0.000107>
+read(3, "", 4096)                       = 0 <0.000158>
+close(3)                                = 0 <0.000113>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000141>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000155>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f725e343000 <0.000159>
+close(3)                                = 0 <0.000112>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000118>
+open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000238>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\22\0\0\0\0\0\0"..., 832) = 832 <0.000108>
+fstat(3, {st_mode=S_IFREG|0644, st_size=35688, ...}) = 0 <0.000107>
+mmap(NULL, 2131040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f725d724000 <0.000107>
+mprotect(0x7f725d72c000, 2093056, PROT_NONE) = 0 <0.000113>
+mmap(0x7f725d92b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f725d92b000 <0.000164>
+close(3)                                = 0 <0.000114>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000157>
+open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3 <0.000165>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0"..., 832) = 832 <0.000168>
+fstat(3, {st_mode=S_IFREG|0644, st_size=93128, ...}) = 0 <0.000115>
+mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f725d50b000 <0.000111>
+mprotect(0x7f725d521000, 2093056, PROT_NONE) = 0 <0.000110>
+mmap(0x7f725d720000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f725d720000 <0.000172>
+mmap(0x7f725d722000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f725d722000 <0.000108>
+close(3)                                = 0 <0.000114>
+mprotect(0x7f725d720000, 4096, PROT_READ) = 0 <0.000115>
+mprotect(0x7f725d92b000, 4096, PROT_READ) = 0 <0.000104>
+munmap(0x7f725e343000, 23723)           = 0 <0.000157>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000117>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000118>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f725e343000 <0.000108>
+close(3)                                = 0 <0.000117>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000108>
+open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000157>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0"..., 832) = 832 <0.000113>
+fstat(3, {st_mode=S_IFREG|0644, st_size=47648, ...}) = 0 <0.000155>
+mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f725d2ff000 <0.000159>
+mprotect(0x7f725d30a000, 2093056, PROT_NONE) = 0 <0.000116>
+mmap(0x7f725d509000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f725d509000 <0.000118>
+close(3)                                = 0 <0.000161>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000111>
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000165>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0"..., 832) = 832 <0.000156>
+fstat(3, {st_mode=S_IFREG|0644, st_size=47600, ...}) = 0 <0.000110>
+mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f725d0ed000 <0.000104>
+mprotect(0x7f725d0f8000, 2093056, PROT_NONE) = 0 <0.000110>
+mmap(0x7f725d2f7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f725d2f7000 <0.000160>
+mmap(0x7f725d2f9000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f725d2f9000 <0.000118>
+close(3)                                = 0 <0.000150>
+mprotect(0x7f725d2f7000, 4096, PROT_READ) = 0 <0.000117>
+mprotect(0x7f725d509000, 4096, PROT_READ) = 0 <0.000107>
+munmap(0x7f725e343000, 23723)           = 0 <0.000163>
+brk(0x131c000)                          = 0x131c000 <0.000117>
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3 <0.000117>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000180>
+fstat(3, {st_mode=S_IFREG|0644, st_size=1239, ...}) = 0 <0.000110>
+mmap(NULL, 1239, PROT_READ, MAP_SHARED, 3, 0) = 0x7f725e348000 <0.000109>
+lseek(3, 1239, SEEK_SET)                = 1239 <0.000112>
+munmap(0x7f725e348000, 1239)            = 0 <0.000108>
+close(3)                                = 0 <0.000154>
+gettimeofday({1586871294, 566794}, NULL) = 0 <0.000111>
+brk(0x131d000)                          = 0x131d000 <0.000110>
+getpgrp()                               = 13941 <0.000112>
+rt_sigaction(SIGCHLD, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, 8) = 0 <0.000112>
+getrlimit(RLIMIT_NPROC, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0 <0.000155>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000111>
+open("/root/.pyenv/libexec/pyenv", O_RDONLY) = 3 <0.001916>
+ioctl(3, TCGETS, 0x7fff6fd39890)        = -1 ENOSYS (Function not implemented) <0.000480>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000108>
+read(3, "#!/usr/bin/env bash\nset -e\n\nif ["..., 80) = 80 <0.000532>
+lseek(3, 0, SEEK_SET)                   = 0 <0.000125>
+getrlimit(RLIMIT_NOFILE, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0 <0.000108>
+fcntl(255, F_GETFD)                     = -1 EBADF (Bad file descriptor) <0.000107>
+dup2(3, 255)                            = 255 <0.000109>
+close(3)                                = 0 <0.000394>
+fcntl(255, F_SETFD, FD_CLOEXEC)         = 0 <0.000138>
+fcntl(255, F_GETFL)                     = 0x8000 (flags O_RDONLY|O_LARGEFILE) <0.000134>
+fstat(255, {st_mode=S_IFREG|0755, st_size=3308, ...}) = 0 <0.000469>
+lseek(255, 0, SEEK_CUR)                 = 0 <0.000135>
+brk(0x131e000)                          = 0x131e000 <0.000143>
+brk(0x131f000)                          = 0x131f000 <0.000137>
+read(255, "#!/usr/bin/env bash\nset -e\n\nif ["..., 3308) = 3308 <0.000134>
+brk(0x1320000)                          = 0x1320000 <0.000179>
+brk(0x1321000)                          = 0x1321000 <0.000170>
+brk(0x1322000)                          = 0x1322000 <0.000178>
+brk(0x1323000)                          = 0x1323000 <0.000174>
+brk(0x1324000)                          = 0x1324000 <0.000181>
+brk(0x1325000)                          = 0x1325000 <0.000170>
+open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3 <0.000191>
+fcntl(2, F_GETFD)                       = 0 <0.000169>
+fcntl(2, F_DUPFD, 10)                   = 10 <0.000174>
+fcntl(2, F_GETFD)                       = 0 <0.000184>
+fcntl(10, F_SETFD, FD_CLOEXEC)          = 0 <0.000181>
+dup2(3, 2)                              = 2 <0.000182>
+close(3)                                = 0 <0.000171>
+open("/root/.pyenv/libexec/../libexec/pyenv-realpath.dylib", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.001495>
+write(2, "/root/.pyenv/libexec/pyenv: line"..., 237) = 237 <0.000140>
+dup2(10, 2)                             = 2 <0.000137>
+fcntl(10, F_GETFD)                      = 0x1 (flags FD_CLOEXEC) <0.000135>
+close(10)                               = 0 <0.000201>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000139>
+pipe([3, 4])                            = 0 <0.000142>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000135>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000136>
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000134>
+lseek(255, -2244, SEEK_CUR)             = 1064 <0.000140>
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f725e3409d0) = 13944 <0.000243>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000162>
+rt_sigaction(SIGCHLD, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, 8) = 0 <0.000111>
+close(4)                                = 0 <0.000257>
+read(3, "/bin/readlink\n", 128)         = 14 <0.000670>
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13944, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 13944 <0.000148>
+wait4(-1, 0x7fff6fd38010, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000155>
+rt_sigreturn({mask=[]})                 = 14 <0.000169>
+read(3, "", 128)                        = 0 <0.000145>
+close(3)                                = 0 <0.000155>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000144>
+rt_sigaction(SIGINT, {0x4449f0, [], SA_RESTORER, 0x7f725d9624b0}, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000138>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, {0x4449f0, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000137>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000138>
+read(255, "\nif [ -z \"${PYENV_ROOT}\" ]; then"..., 3308) = 2244 <0.000554>
+lstat("./hello.py", {st_mode=S_IFREG|0755, st_size=22, ...}) = 0 <0.000874>
+stat(".", {st_mode=S_IFDIR|0755, st_size=352, ...}) = 0 <0.000520>
+stat(".", {st_mode=S_IFDIR|0755, st_size=352, ...}) = 0 <0.000568>
+brk(0x1326000)                          = 0x1326000 <0.000144>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000138>
+pipe([3, 4])                            = 0 <0.000150>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000091>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000141>
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000140>
+lseek(255, -1394, SEEK_CUR)             = 1914 <0.000177>
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f725e3409d0) = 13947 <0.000314>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000224>
+rt_sigaction(SIGCHLD, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, 8) = 0 <0.000174>
+close(4)                                = 0 <0.000262>
+read(3, "/root/src\n", 128)             = 10 <0.000111>
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13947, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 13947 <0.000167>
+wait4(-1, 0x7fff6fd384d0, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000156>
+rt_sigreturn({mask=[]})                 = 10 <0.000163>
+read(3, "", 128)                        = 0 <0.000207>
+close(3)                                = 0 <0.000150>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000133>
+rt_sigaction(SIGINT, {0x4449f0, [], SA_RESTORER, 0x7f725d9624b0}, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000135>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, {0x4449f0, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000191>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000184>
+read(255, "export PYENV_DIR\n\n\nshopt -s null"..., 3308) = 1394 <0.000492>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000174>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000134>
+pipe([3, 4])                            = 0 <0.000142>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000138>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000133>
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000177>
+lseek(255, -1325, SEEK_CUR)             = 1983 <0.000134>
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f725e3409d0) = 13948 <0.000227>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000154>
+rt_sigaction(SIGCHLD, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, 8) = 0 <0.000158>
+close(4)                                = 0 <0.000137>
+read(3, "/root/.pyenv/libexec\n", 128)  = 21 <0.002594>
+read(3, "", 128)                        = 0 <0.000125>
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13948, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 13948 <0.000124>
+wait4(-1, 0x7fff6fd383d0, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000115>
+rt_sigreturn({mask=[]})                 = 0 <0.000117>
+close(3)                                = 0 <0.000175>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000122>
+rt_sigaction(SIGINT, {0x4449f0, [], SA_RESTORER, 0x7f725d9624b0}, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000109>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, {0x4449f0, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000171>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000119>
+read(255, "for plugin_bin in \"${PYENV_ROOT}"..., 3308) = 1325 <0.000472>
+open("/root/.pyenv/plugins/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3 <0.002693>
+fstat(3, {st_mode=S_IFDIR|0755, st_size=128, ...}) = 0 <0.000547>
+brk(0x1336000)                          = 0x1336000 <0.000111>
+getdents(3, /* 4 entries */, 32768)     = 112 <0.000607>
+getdents(3, /* 0 entries */, 32768)     = 0 <0.000582>
+brk(0x1326000)                          = 0x1326000 <0.000198>
+close(3)                                = 0 <0.000208>
+stat("/root/.pyenv/plugins/python-build", {st_mode=S_IFDIR|0755, st_size=288, ...}) = 0 <0.001022>
+lstat("/root/.pyenv/plugins/python-build/bin", {st_mode=S_IFDIR|0755, st_size=160, ...}) = 0 <0.001917>
+brk(0x1327000)                          = 0x1327000 <0.000116>
+open("/root/.pyenv/plugins/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3 <0.000665>
+fstat(3, {st_mode=S_IFDIR|0755, st_size=128, ...}) = 0 <0.000625>
+brk(0x1337000)                          = 0x1337000 <0.000185>
+getdents(3, /* 4 entries */, 32768)     = 112 <0.000598>
+getdents(3, /* 0 entries */, 32768)     = 0 <0.000583>
+brk(0x1327000)                          = 0x1327000 <0.000218>
+close(3)                                = 0 <0.000199>
+stat("/root/.pyenv/plugins/python-build", {st_mode=S_IFDIR|0755, st_size=288, ...}) = 0 <0.001692>
+lstat("/root/.pyenv/plugins/python-build/etc", 0x7fff6fd39580) = -1 ENOENT (No such file or directory) <0.000553>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000111>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000118>
+pipe([3, 4])                            = 0 <0.000119>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000108>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000113>
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000108>
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f725e3409d0) = 13952 <0.000335>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000089>
+rt_sigaction(SIGCHLD, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, 8) = 0 <0.000089>
+close(4)                                = 0 <0.000093>
+read(3, "/root/.pyenv/libexec/pyenv-exec\n", 128) = 32 <0.003953>
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13952, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 13952 <0.000159>
+wait4(-1, 0x7fff6fd37fd0, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000113>
+rt_sigreturn({mask=[]})                 = 32 <0.000114>
+read(3, "", 128)                        = 0 <0.000115>
+close(3)                                = 0 <0.000160>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000108>
+rt_sigaction(SIGINT, {0x4449f0, [], SA_RESTORER, 0x7f725d9624b0}, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000153>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, {0x4449f0, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000117>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000213>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000159>
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f725d9624b0}, {SIG_IGN, [], SA_RESTORER, 0x7f725d9624b0}, 8) = 0 <0.000116>
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f725d9624b0}, 8) = 0 <0.000109>
+execve("/root/.pyenv/libexec/pyenv-exec", ["/root/.pyenv/libexec/pyenv-exec", "python", "./hello.py"], [/* 14 vars */]) = 0 <0.003828>
+brk(NULL)                               = 0x14b6000 <0.000172>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000108>
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory) <0.000117>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000156>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000118>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9c0ba1d000 <0.000108>
+close(3)                                = 0 <0.000118>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000117>
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000161>
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832 <0.000109>
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0 <0.000113>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9c0ba1c000 <0.000173>
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9c0b434000 <0.000118>
+mprotect(0x7f9c0b5f4000, 2097152, PROT_NONE) = 0 <0.000155>
+mmap(0x7f9c0b7f4000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f9c0b7f4000 <0.000157>
+mmap(0x7f9c0b7fa000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9c0b7fa000 <0.000126>
+close(3)                                = 0 <0.000109>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9c0ba1b000 <0.000116>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9c0ba1a000 <0.000154>
+arch_prctl(ARCH_SET_FS, 0x7f9c0ba1b700) = 0 <0.000117>
+mprotect(0x7f9c0b7f4000, 16384, PROT_READ) = 0 <0.000112>
+mprotect(0x606000, 4096, PROT_READ)     = 0 <0.000108>
+mprotect(0x7f9c0ba23000, 4096, PROT_READ) = 0 <0.000155>
+munmap(0x7f9c0ba1d000, 23723)           = 0 <0.000156>
+brk(NULL)                               = 0x14b6000 <0.000111>
+brk(0x14d7000)                          = 0x14d7000 <0.000109>
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000155>
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000164>
+open("/usr/lib/locale/en_GB.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000152>
+open("/usr/lib/locale/en_GB.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000111>
+open("/usr/lib/locale/en_GB/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000109>
+open("/usr/lib/locale/en.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000161>
+open("/usr/lib/locale/en.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000155>
+open("/usr/lib/locale/en/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000157>
+execve("/root/.pyenv/libexec/bash", ["bash", "/root/.pyenv/libexec/pyenv-exec", "python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.001278>
+execve("/root/.pyenv/plugins/python-build/bin/bash", ["bash", "/root/.pyenv/libexec/pyenv-exec", "python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.001625>
+execve("/root/.pyenv/shims/bash", ["bash", "/root/.pyenv/libexec/pyenv-exec", "python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000935>
+execve("/root/.pyenv/shims/bash", ["bash", "/root/.pyenv/libexec/pyenv-exec", "python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000161>
+execve("/usr/local/sbin/bash", ["bash", "/root/.pyenv/libexec/pyenv-exec", "python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000156>
+execve("/usr/local/bin/bash", ["bash", "/root/.pyenv/libexec/pyenv-exec", "python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000107>
+execve("/usr/sbin/bash", ["bash", "/root/.pyenv/libexec/pyenv-exec", "python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000235>
+execve("/usr/bin/bash", ["bash", "/root/.pyenv/libexec/pyenv-exec", "python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000173>
+execve("/sbin/bash", ["bash", "/root/.pyenv/libexec/pyenv-exec", "python", "./hello.py"], [/* 14 vars */]) = -1 ENOENT (No such file or directory) <0.000118>
+execve("/bin/bash", ["bash", "/root/.pyenv/libexec/pyenv-exec", "python", "./hello.py"], [/* 14 vars */]) = 0 <0.000474>
+brk(NULL)                               = 0x868000 <0.000108>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000156>
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory) <0.000116>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000156>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000114>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f187d504000 <0.000210>
+close(3)                                = 0 <0.000107>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000116>
+open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3 <0.000158>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\310\0\0\0\0\0\0"..., 832) = 832 <0.000115>
+fstat(3, {st_mode=S_IFREG|0644, st_size=167240, ...}) = 0 <0.000118>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f187d503000 <0.000107>
+mmap(NULL, 2264256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f187d0bc000 <0.000157>
+mprotect(0x7f187d0e1000, 2093056, PROT_NONE) = 0 <0.000107>
+mmap(0x7f187d2e0000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7f187d2e0000 <0.000160>
+close(3)                                = 0 <0.000154>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000107>
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000115>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832 <0.000110>
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0 <0.000117>
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f187ceb8000 <0.000219>
+mprotect(0x7f187cebb000, 2093056, PROT_NONE) = 0 <0.000152>
+mmap(0x7f187d0ba000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f187d0ba000 <0.000159>
+close(3)                                = 0 <0.000157>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000113>
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000162>
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832 <0.000108>
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0 <0.000114>
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f187caee000 <0.000119>
+mprotect(0x7f187ccae000, 2097152, PROT_NONE) = 0 <0.000109>
+mmap(0x7f187ceae000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f187ceae000 <0.000116>
+mmap(0x7f187ceb4000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f187ceb4000 <0.000157>
+close(3)                                = 0 <0.000114>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f187d502000 <0.000156>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f187d501000 <0.000110>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f187d500000 <0.000111>
+arch_prctl(ARCH_SET_FS, 0x7f187d501700) = 0 <0.000153>
+mprotect(0x7f187ceae000, 16384, PROT_READ) = 0 <0.000118>
+mprotect(0x7f187d0ba000, 4096, PROT_READ) = 0 <0.000115>
+mprotect(0x7f187d2e0000, 16384, PROT_READ) = 0 <0.000108>
+mprotect(0x6f3000, 4096, PROT_READ)     = 0 <0.000110>
+mprotect(0x7f187d50a000, 4096, PROT_READ) = 0 <0.000111>
+munmap(0x7f187d504000, 23723)           = 0 <0.000162>
+open("/dev/tty", O_RDWR|O_NONBLOCK)     = 3 <0.000163>
+close(3)                                = 0 <0.000105>
+brk(NULL)                               = 0x868000 <0.000116>
+brk(0x869000)                           = 0x869000 <0.000142>
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000146>
+brk(0x86a000)                           = 0x86a000 <0.000137>
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000140>
+open("/usr/lib/locale/en_GB.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000139>
+open("/usr/lib/locale/en_GB.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000146>
+open("/usr/lib/locale/en_GB/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000145>
+open("/usr/lib/locale/en.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000206>
+open("/usr/lib/locale/en.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000139>
+open("/usr/lib/locale/en/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000151>
+getuid()                                = 0 <0.000142>
+getgid()                                = 0 <0.000140>
+geteuid()                               = 0 <0.000135>
+getegid()                               = 0 <0.000191>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000135>
+brk(0x86b000)                           = 0x86b000 <0.000140>
+sysinfo({uptime=88393, loads=[26368, 26048, 27552], totalram=2086154240, freeram=373207040, sharedram=753664, bufferram=114638848, totalswap=1073737728, freeswap=1071640576, procs=402, totalhigh=0, freehigh=0, mem_unit=1}) = 0 <0.000147>
+brk(0x86c000)                           = 0x86c000 <0.000199>
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, {SIG_DFL, [], 0}, 8) = 0 <0.000123>
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, 8) = 0 <0.000139>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, {SIG_DFL, [], 0}, 8) = 0 <0.000139>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, 8) = 0 <0.000134>
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, {SIG_DFL, [], 0}, 8) = 0 <0.000118>
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, 8) = 0 <0.000107>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000108>
+rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x7f187cb234b0}, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, 8) = 0 <0.000112>
+uname({sysname="Linux", nodename="851cdb8cbd1c", ...}) = 0 <0.000158>
+brk(0x86d000)                           = 0x86d000 <0.000169>
+stat("/root/src", {st_mode=S_IFDIR|0755, st_size=352, ...}) = 0 <0.001072>
+stat(".", {st_mode=S_IFDIR|0755, st_size=352, ...}) = 0 <0.000572>
+getpid()                                = 13943 <0.000168>
+getppid()                               = 13941 <0.000173>
+stat(".", {st_mode=S_IFDIR|0755, st_size=352, ...}) = 0 <0.000695>
+stat("/root/.pyenv/libexec/bash", 0x7ffc6678d600) = -1 ENOENT (No such file or directory) <0.001394>
+stat("/root/.pyenv/plugins/python-build/bin/bash", 0x7ffc6678d600) = -1 ENOENT (No such file or directory) <0.001637>
+stat("/root/.pyenv/shims/bash", 0x7ffc6678d600) = -1 ENOENT (No such file or directory) <0.000801>
+stat("/root/.pyenv/shims/bash", 0x7ffc6678d600) = -1 ENOENT (No such file or directory) <0.000158>
+stat("/usr/local/sbin/bash", 0x7ffc6678d600) = -1 ENOENT (No such file or directory) <0.000107>
+stat("/usr/local/bin/bash", 0x7ffc6678d600) = -1 ENOENT (No such file or directory) <0.000157>
+stat("/usr/sbin/bash", 0x7ffc6678d600)  = -1 ENOENT (No such file or directory) <0.000113>
+stat("/usr/bin/bash", 0x7ffc6678d600)   = -1 ENOENT (No such file or directory) <0.000112>
+stat("/sbin/bash", 0x7ffc6678d600)      = -1 ENOENT (No such file or directory) <0.000152>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000115>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000118>
+geteuid()                               = 0 <0.000112>
+getegid()                               = 0 <0.000110>
+getuid()                                = 0 <0.000174>
+getgid()                                = 0 <0.000107>
+access("/bin/bash", X_OK)               = 0 <0.000157>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000166>
+geteuid()                               = 0 <0.000119>
+getegid()                               = 0 <0.000112>
+getuid()                                = 0 <0.000109>
+getgid()                                = 0 <0.000212>
+access("/bin/bash", R_OK)               = 0 <0.000118>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000107>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000182>
+geteuid()                               = 0 <0.000187>
+getegid()                               = 0 <0.000183>
+getuid()                                = 0 <0.000180>
+getgid()                                = 0 <0.000184>
+access("/bin/bash", X_OK)               = 0 <0.000198>
+stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1037528, ...}) = 0 <0.000189>
+geteuid()                               = 0 <0.000190>
+getegid()                               = 0 <0.000182>
+getuid()                                = 0 <0.000180>
+getgid()                                = 0 <0.000178>
+access("/bin/bash", R_OK)               = 0 <0.000183>
+brk(0x86e000)                           = 0x86e000 <0.000189>
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3 <0.000195>
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory) <0.000195>
+close(3)                                = 0 <0.000190>
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3 <0.000218>
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory) <0.000165>
+close(3)                                = 0 <0.000108>
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3 <0.000159>
+fstat(3, {st_mode=S_IFREG|0644, st_size=497, ...}) = 0 <0.000114>
+brk(0x870000)                           = 0x870000 <0.000210>
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 497 <0.000117>
+brk(0x871000)                           = 0x871000 <0.000112>
+read(3, "", 4096)                       = 0 <0.000107>
+close(3)                                = 0 <0.000107>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000158>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000111>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f187d504000 <0.000157>
+close(3)                                = 0 <0.000111>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000117>
+open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000112>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\22\0\0\0\0\0\0"..., 832) = 832 <0.000180>
+fstat(3, {st_mode=S_IFREG|0644, st_size=35688, ...}) = 0 <0.000117>
+mmap(NULL, 2131040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f187c8e5000 <0.000109>
+mprotect(0x7f187c8ed000, 2093056, PROT_NONE) = 0 <0.000159>
+mmap(0x7f187caec000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f187caec000 <0.000163>
+close(3)                                = 0 <0.000158>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000114>
+open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3 <0.000159>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0"..., 832) = 832 <0.000156>
+fstat(3, {st_mode=S_IFREG|0644, st_size=93128, ...}) = 0 <0.000108>
+mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f187c6cc000 <0.000113>
+mprotect(0x7f187c6e2000, 2093056, PROT_NONE) = 0 <0.000117>
+mmap(0x7f187c8e1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f187c8e1000 <0.000154>
+mmap(0x7f187c8e3000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f187c8e3000 <0.000117>
+close(3)                                = 0 <0.000113>
+mprotect(0x7f187c8e1000, 4096, PROT_READ) = 0 <0.000110>
+mprotect(0x7f187caec000, 4096, PROT_READ) = 0 <0.000108>
+munmap(0x7f187d504000, 23723)           = 0 <0.000161>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000158>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000175>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f187d504000 <0.000107>
+close(3)                                = 0 <0.000110>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000107>
+open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000118>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0"..., 832) = 832 <0.000112>
+fstat(3, {st_mode=S_IFREG|0644, st_size=47648, ...}) = 0 <0.000113>
+mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f187c4c0000 <0.000118>
+mprotect(0x7f187c4cb000, 2093056, PROT_NONE) = 0 <0.000112>
+mmap(0x7f187c6ca000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f187c6ca000 <0.000212>
+close(3)                                = 0 <0.000113>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000113>
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000164>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0"..., 832) = 832 <0.000118>
+fstat(3, {st_mode=S_IFREG|0644, st_size=47600, ...}) = 0 <0.000163>
+mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f187c2ae000 <0.000113>
+mprotect(0x7f187c2b9000, 2093056, PROT_NONE) = 0 <0.000116>
+mmap(0x7f187c4b8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f187c4b8000 <0.000159>
+mmap(0x7f187c4ba000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f187c4ba000 <0.000113>
+close(3)                                = 0 <0.000125>
+mprotect(0x7f187c4b8000, 4096, PROT_READ) = 0 <0.000113>
+mprotect(0x7f187c6ca000, 4096, PROT_READ) = 0 <0.000112>
+munmap(0x7f187d504000, 23723)           = 0 <0.000164>
+brk(0x872000)                           = 0x872000 <0.000109>
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3 <0.000160>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000128>
+fstat(3, {st_mode=S_IFREG|0644, st_size=1239, ...}) = 0 <0.000107>
+mmap(NULL, 1239, PROT_READ, MAP_SHARED, 3, 0) = 0x7f187d509000 <0.000162>
+lseek(3, 1239, SEEK_SET)                = 1239 <0.000109>
+munmap(0x7f187d509000, 1239)            = 0 <0.000155>
+close(3)                                = 0 <0.000119>
+gettimeofday({1586871294, 915981}, NULL) = 0 <0.000164>
+brk(0x873000)                           = 0x873000 <0.000115>
+getpgrp()                               = 13941 <0.000107>
+rt_sigaction(SIGCHLD, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, 8) = 0 <0.000190>
+getrlimit(RLIMIT_NPROC, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0 <0.000113>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000180>
+open("/root/.pyenv/libexec/pyenv-exec", O_RDONLY) = 3 <0.001917>
+ioctl(3, TCGETS, 0x7ffc6678d900)        = -1 ENOSYS (Function not implemented) <0.000447>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000114>
+read(3, "#!/usr/bin/env bash\n#\n# Summary:"..., 80) = 80 <0.000475>
+lseek(3, 0, SEEK_SET)                   = 0 <0.000152>
+getrlimit(RLIMIT_NOFILE, {rlim_cur=1024*1024, rlim_max=1024*1024}) = 0 <0.000110>
+fcntl(255, F_GETFD)                     = -1 EBADF (Bad file descriptor) <0.000104>
+dup2(3, 255)                            = 255 <0.000153>
+close(3)                                = 0 <0.000442>
+fcntl(255, F_SETFD, FD_CLOEXEC)         = 0 <0.000107>
+fcntl(255, F_GETFL)                     = 0x8000 (flags O_RDONLY|O_LARGEFILE) <0.000107>
+fstat(255, {st_mode=S_IFREG|0755, st_size=1177, ...}) = 0 <0.000446>
+lseek(255, 0, SEEK_CUR)                 = 0 <0.000113>
+brk(0x874000)                           = 0x874000 <0.000119>
+brk(0x875000)                           = 0x875000 <0.000111>
+read(255, "#!/usr/bin/env bash\n#\n# Summary:"..., 1177) = 1177 <0.000182>
+brk(0x876000)                           = 0x876000 <0.000180>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000184>
+brk(0x877000)                           = 0x877000 <0.000190>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000180>
+pipe([3, 4])                            = 0 <0.000188>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000178>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000182>
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000186>
+lseek(255, -540, SEEK_CUR)              = 637 <0.000181>
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f187d5019d0) = 13953 <0.000282>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000132>
+rt_sigaction(SIGCHLD, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, 8) = 0 <0.000172>
+close(4)                                = 0 <0.000243>
+read(3, "3.8.2\n", 128)                 = 6 <0.097782>
+read(3, "", 128)                        = 0 <0.000125>
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13953, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 13953 <0.000116>
+wait4(-1, 0x7ffc6678c450, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000108>
+rt_sigreturn({mask=[]})                 = 0 <0.000182>
+close(3)                                = 0 <0.000116>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000114>
+rt_sigaction(SIGINT, {0x4449f0, [], SA_RESTORER, 0x7f187cb234b0}, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, 8) = 0 <0.000115>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, {0x4449f0, [], SA_RESTORER, 0x7f187cb234b0}, 8) = 0 <0.000116>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000177>
+read(255, "PYENV_COMMAND=\"$1\"\n\nif [ -z \"$PY"..., 1177) = 540 <0.000434>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000139>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000109>
+pipe([3, 4])                            = 0 <0.000115>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000116>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000102>
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000116>
+lseek(255, -370, SEEK_CUR)              = 807 <0.000109>
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f187d5019d0) = 13964 <0.000223>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000170>
+rt_sigaction(SIGCHLD, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, 8) = 0 <0.000098>
+close(4)                                = 0 <0.000104>
+read(3, "/root/.pyenv/versions/3.8.2/bin/"..., 128) = 39 <0.048072>
+read(3, "", 128)                        = 0 <0.000154>
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13964, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 13964 <0.000124>
+wait4(-1, 0x7ffc6678c450, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000148>
+rt_sigreturn({mask=[]})                 = 0 <0.000126>
+close(3)                                = 0 <0.000126>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000170>
+rt_sigaction(SIGINT, {0x4449f0, [], SA_RESTORER, 0x7f187cb234b0}, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, 8) = 0 <0.000114>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, {0x4449f0, [], SA_RESTORER, 0x7f187cb234b0}, 8) = 0 <0.000118>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000111>
+read(255, "PYENV_BIN_PATH=\"${PYENV_COMMAND_"..., 1177) = 370 <0.000518>
+pipe([3, 4])                            = 0 <0.000115>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000112>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000112>
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000112>
+lseek(255, -274, SEEK_CUR)              = 903 <0.000173>
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f187d5019d0) = 13969 <0.000333>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000266>
+rt_sigaction(SIGCHLD, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, 8) = 0 <0.000100>
+close(4)                                = 0 <0.000140>
+read(3, "/root/.pyenv/pyenv.d/exec/pip-re"..., 128) = 42 <0.033492>
+read(3, "", 128)                        = 0 <0.000639>
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13969, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 13969 <0.000120>
+wait4(-1, 0x7ffc6678c5d0, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000114>
+rt_sigreturn({mask=[]})                 = 0 <0.000110>
+close(3)                                = 0 <0.000117>
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000146>
+rt_sigaction(SIGINT, {0x4449f0, [], SA_RESTORER, 0x7f187cb234b0}, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, 8) = 0 <0.000110>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, {0x4449f0, [], SA_RESTORER, 0x7f187cb234b0}, 8) = 0 <0.000109>
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000118>
+read(255, "IFS=\"$OLDIFS\"\nfor script in \"${s"..., 1177) = 274 <0.000472>
+open("/root/.pyenv/pyenv.d/exec/pip-rehash.bash", O_RDONLY) = 3 <0.002029>
+fstat(3, {st_mode=S_IFREG|0755, st_size=533, ...}) = 0 <0.000418>
+read(3, "PYENV_PIP_REHASH_ROOT=\"${BASH_SO"..., 533) = 533 <0.000818>
+close(3)                                = 0 <0.000535>
+brk(0x878000)                           = 0x878000 <0.000118>
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0 <0.000112>
+brk(0x879000)                           = 0x879000 <0.000118>
+brk(0x87a000)                           = 0x87a000 <0.000118>
+brk(0x87b000)                           = 0x87b000 <0.000114>
+brk(0x87c000)                           = 0x87c000 <0.000176>
+brk(0x87d000)                           = 0x87d000 <0.000171>
+brk(0x87e000)                           = 0x87e000 <0.000117>
+faccessat(AT_FDCWD, "/root/.pyenv/pyenv.d/exec/pip-rehash/python", X_OK) = -1 ENOENT (No such file or directory) <0.002294>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, 8) = 0 <0.000117>
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f187cb234b0}, {SIG_IGN, [], SA_RESTORER, 0x7f187cb234b0}, 8) = 0 <0.000109>
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, {0x447b10, [], SA_RESTORER|SA_RESTART, 0x7f187cb234b0}, 8) = 0 <0.000118>
+execve("/root/.pyenv/versions/3.8.2/bin/python", ["/root/.pyenv/versions/3.8.2/bin/"..., "./hello.py"], [/* 15 vars */]) = 0 <0.006270>
+brk(NULL)                               = 0x144a000 <0.000112>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000113>
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory) <0.000113>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000117>
+fstat(3, {st_mode=S_IFREG|0644, st_size=23723, ...}) = 0 <0.000117>
+mmap(NULL, 23723, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f89c0084000 <0.000115>
+close(3)                                = 0 <0.000115>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000115>
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3 <0.000157>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832 <0.000161>
+fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0 <0.000168>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89c0083000 <0.000188>
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f89bfc48000 <0.000118>
+mprotect(0x7f89bfc60000, 2093056, PROT_NONE) = 0 <0.000117>
+mmap(0x7f89bfe5f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f89bfe5f000 <0.000118>
+mmap(0x7f89bfe61000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f89bfe61000 <0.000116>
+close(3)                                = 0 <0.000117>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000158>
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000197>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832 <0.000153>
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0 <0.000117>
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f89bfa44000 <0.000118>
+mprotect(0x7f89bfa47000, 2093056, PROT_NONE) = 0 <0.000117>
+mmap(0x7f89bfc46000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f89bfc46000 <0.000113>
+close(3)                                = 0 <0.000114>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000167>
+open("/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3 <0.000128>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\16\0\0\0\0\0\0"..., 832) = 832 <0.000115>
+fstat(3, {st_mode=S_IFREG|0644, st_size=10656, ...}) = 0 <0.000118>
+mmap(NULL, 2105608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f89bf841000 <0.000117>
+mprotect(0x7f89bf843000, 2093056, PROT_NONE) = 0 <0.000118>
+mmap(0x7f89bfa42000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f89bfa42000 <0.000113>
+close(3)                                = 0 <0.000137>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000121>
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000196>
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832 <0.000125>
+fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0 <0.000117>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89c0082000 <0.000117>
+mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f89bf538000 <0.000118>
+mprotect(0x7f89bf640000, 2093056, PROT_NONE) = 0 <0.000119>
+mmap(0x7f89bf83f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7f89bf83f000 <0.000165>
+close(3)                                = 0 <0.000117>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000111>
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000229>
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832 <0.000122>
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0 <0.000117>
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f89bf16e000 <0.000117>
+mprotect(0x7f89bf32e000, 2097152, PROT_NONE) = 0 <0.000212>
+mmap(0x7f89bf52e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f89bf52e000 <0.000171>
+mmap(0x7f89bf534000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f89bf534000 <0.000117>
+close(3)                                = 0 <0.000157>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89c0081000 <0.000209>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89c0080000 <0.000117>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89c007f000 <0.000115>
+arch_prctl(ARCH_SET_FS, 0x7f89c0080700) = 0 <0.000112>
+mprotect(0x7f89bf52e000, 16384, PROT_READ) = 0 <0.000114>
+mprotect(0x7f89bf83f000, 4096, PROT_READ) = 0 <0.000135>
+mprotect(0x7f89bfa42000, 4096, PROT_READ) = 0 <0.000118>
+mprotect(0x7f89bfc46000, 4096, PROT_READ) = 0 <0.000117>
+mprotect(0x7f89bfe5f000, 4096, PROT_READ) = 0 <0.000118>
+mprotect(0x901000, 4096, PROT_READ)     = 0 <0.000129>
+mprotect(0x7f89c008a000, 4096, PROT_READ) = 0 <0.000170>
+munmap(0x7f89c0084000, 23723)           = 0 <0.000160>
+set_tid_address(0x7f89c00809d0)         = 13943 <0.000114>
+set_robust_list(0x7f89c00809e0, 24)     = 0 <0.000117>
+rt_sigaction(SIGRTMIN, {0x7f89bfc4db50, [], SA_RESTORER|SA_SIGINFO, 0x7f89bfc59390}, NULL, 8) = 0 <0.000117>
+rt_sigaction(SIGRT_1, {0x7f89bfc4dbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f89bfc59390}, NULL, 8) = 0 <0.000115>
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0 <0.000113>
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0 <0.000155>
+brk(NULL)                               = 0x144a000 <0.000172>
+brk(0x146b000)                          = 0x146b000 <0.000176>
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000248>
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000166>
+open("/usr/lib/locale/en_GB.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000117>
+open("/usr/lib/locale/en_GB.utf8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000112>
+open("/usr/lib/locale/en_GB/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000118>
+open("/usr/lib/locale/en.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000114>
+open("/usr/lib/locale/en.utf8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000117>
+open("/usr/lib/locale/en/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000217>
+open("/usr/lib/locale/C.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3 <0.000172>
+fstat(3, {st_mode=S_IFREG|0644, st_size=158652, ...}) = 0 <0.000123>
+mmap(NULL, 158652, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f89c0058000 <0.000119>
+close(3)                                = 0 <0.000117>
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3 <0.000213>
+fstat(3, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0 <0.000163>
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3, 0) = 0x7f89c0051000 <0.000168>
+close(3)                                = 0 <0.000160>
+futex(0x7f89bf5338c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000126>
+open("/usr/lib/locale/en_GB.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000239>
+open("/usr/lib/locale/en_GB.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000223>
+open("/usr/lib/locale/en_GB/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000170>
+open("/usr/lib/locale/en.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000121>
+open("/usr/lib/locale/en.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000161>
+open("/usr/lib/locale/en/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000115>
+readlink("/root/.pyenv/versions/3.8.2/bin/python", "python3.8", 4096) = 9 <0.002549>
+readlink("/root/.pyenv/versions/3.8.2/bin/python3.8", 0x7ffd76d57ac0, 4096) = -1 EINVAL (Invalid argument) <0.000707>
+open("/root/.pyenv/versions/3.8.2/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000503>
+open("/root/.pyenv/versions/3.8.2/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000486>
+stat("/root/.pyenv/versions/3.8.2/bin/Modules/Setup.local", 0x7ffd76d64c30) = -1 ENOENT (No such file or directory) <0.000497>
+stat("/root/.pyenv/versions/3.8.2/bin/lib/python3.8/os.py", 0x7ffd76d58a40) = -1 ENOENT (No such file or directory) <0.000519>
+stat("/root/.pyenv/versions/3.8.2/bin/lib/python3.8/os.pyc", 0x7ffd76d58a40) = -1 ENOENT (No such file or directory) <0.000123>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/os.py", {st_mode=S_IFREG|0644, st_size=38995, ...}) = 0 <0.003730>
+stat("/root/.pyenv/versions/3.8.2/bin/pybuilddir.txt", 0x7ffd76d58b70) = -1 ENOENT (No such file or directory) <0.001476>
+stat("/root/.pyenv/versions/3.8.2/bin/lib/python3.8/lib-dynload", 0x7ffd76d68c40) = -1 ENOENT (No such file or directory) <0.000167>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/lib-dynload", {st_mode=S_IFDIR|0755, st_size=2368, ...}) = 0 <0.001147>
+getrandom("h\272k;\27\213i,\351\327\273\n\t\253\0\364\367\376K\22\210+\222\360", 24, GRND_NONBLOCK) = 24 <0.000160>
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89c0011000 <0.000113>
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89bffd1000 <0.000147>
+brk(0x148f000)                          = 0x148f000 <0.000211>
+clock_gettime(CLOCK_REALTIME, {1586871295, 347918700}) = 0 <0.000277>
+clock_gettime(CLOCK_MONOTONIC, {88393, 129722874}) = 0 <0.000148>
+clock_gettime(CLOCK_MONOTONIC, {88393, 130886574}) = 0 <0.000192>
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89bff91000 <0.000194>
+brk(0x14b0000)                          = 0x14b0000 <0.000112>
+sysinfo({uptime=88394, loads=[26368, 26048, 27552], totalram=2086154240, freeram=372391936, sharedram=753664, bufferram=114638848, totalswap=1073737728, freeswap=1071640576, procs=402, totalhigh=0, freehigh=0, mem_unit=1}) = 0 <0.000201>
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3 <0.000215>
+fstat(3, {st_mode=S_IFREG|0644, st_size=127, ...}) = 0 <0.000183>
+fstat(3, {st_mode=S_IFREG|0644, st_size=127, ...}) = 0 <0.000183>
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\0"..., 4096) = 127 <0.000182>
+lseek(3, -71, SEEK_CUR)                 = 56 <0.000189>
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\0"..., 4096) = 71 <0.000190>
+close(3)                                = 0 <0.000218>
+sigaltstack({ss_sp=0x148fa90, ss_flags=0, ss_size=16384}, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0 <0.000113>
+stat("/root/.pyenv/versions/3.8.2/lib/python38.zip", 0x7ffd76d6c630) = -1 ENOENT (No such file or directory) <0.002086>
+stat("/root/.pyenv/versions/3.8.2/lib", {st_mode=S_IFDIR|0755, st_size=160, ...}) = 0 <0.000689>
+stat("/root/.pyenv/versions/3.8.2/lib/python38.zip", 0x7ffd76d6c410) = -1 ENOENT (No such file or directory) <0.000111>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.001144>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.000504>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.000524>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3 <0.005265>
+fstat(3, {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.000534>
+getdents(3, /* 16 entries */, 32768)    = 512 <0.000416>
+getdents(3, /* 16 entries */, 32768)    = 544 <0.000392>
+getdents(3, /* 16 entries */, 32768)    = 536 <0.000439>
+getdents(3, /* 16 entries */, 32768)    = 528 <0.000421>
+getdents(3, /* 16 entries */, 32768)    = 544 <0.000514>
+getdents(3, /* 16 entries */, 32768)    = 544 <0.000507>
+getdents(3, /* 16 entries */, 32768)    = 520 <0.000514>
+getdents(3, /* 16 entries */, 32768)    = 520 <0.000504>
+getdents(3, /* 16 entries */, 32768)    = 528 <0.000505>
+getdents(3, /* 16 entries */, 32768)    = 536 <0.000579>
+getdents(3, /* 16 entries */, 32768)    = 528 <0.000471>
+getdents(3, /* 16 entries */, 32768)    = 528 <0.000531>
+getdents(3, /* 16 entries */, 32768)    = 552 <0.000535>
+getdents(3, /* 0 entries */, 32768)     = 0 <0.000507>
+close(3)                                = 0 <0.000145>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/__init__.cpython-38-x86_64-linux-gnu.so", 0x7ffd76d6c810) = -1 ENOENT (No such file or directory) <0.002773>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/__init__.abi3.so", 0x7ffd76d6c810) = -1 ENOENT (No such file or directory) <0.000455>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/__init__.so", 0x7ffd76d6c810) = -1 ENOENT (No such file or directory) <0.000467>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5588, ...}) = 0 <0.000942>
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89bff51000 <0.000112>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5588, ...}) = 0 <0.000522>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/__pycache__/__init__.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001329>
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC) <0.000117>
+fstat(3, {st_mode=S_IFREG|0644, st_size=3916, ...}) = 0 <0.000405>
+ioctl(3, TCGETS, 0x7ffd76d6cd40)        = -1 ENOSYS (Function not implemented) <0.000431>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000172>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000124>
+fstat(3, {st_mode=S_IFREG|0644, st_size=3916, ...}) = 0 <0.000459>
+read(3, "U\r\r\n\0\0\0\0,\270\225^\324\25\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 3917) = 3916 <0.001304>
+read(3, "", 1)                          = 0 <0.000517>
+close(3)                                = 0 <0.000536>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.002382>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/codecs.py", {st_mode=S_IFREG|0644, st_size=36590, ...}) = 0 <0.000896>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/codecs.py", {st_mode=S_IFREG|0644, st_size=36590, ...}) = 0 <0.000396>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/__pycache__/codecs.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001302>
+fstat(3, {st_mode=S_IFREG|0644, st_size=33936, ...}) = 0 <0.000422>
+ioctl(3, TCGETS, 0x7ffd76d6c010)        = -1 ENOSYS (Function not implemented) <0.000423>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000118>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000115>
+fstat(3, {st_mode=S_IFREG|0644, st_size=33936, ...}) = 0 <0.000404>
+read(3, "U\r\r\n\0\0\0\0\35\270\225^\356\216\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 33937) = 33936 <0.001387>
+read(3, "", 1)                          = 0 <0.000532>
+close(3)                                = 0 <0.000501>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings", {st_mode=S_IFDIR|0755, st_size=4032, ...}) = 0 <0.002953>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings", {st_mode=S_IFDIR|0755, st_size=4032, ...}) = 0 <0.000583>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings", {st_mode=S_IFDIR|0755, st_size=4032, ...}) = 0 <0.000506>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3 <0.003545>
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4032, ...}) = 0 <0.000662>
+getdents(3, /* 16 entries */, 32768)    = 544 <0.000540>
+getdents(3, /* 16 entries */, 32768)    = 552 <0.000571>
+getdents(3, /* 16 entries */, 32768)    = 552 <0.000538>
+getdents(3, /* 16 entries */, 32768)    = 536 <0.000544>
+getdents(3, /* 16 entries */, 32768)    = 520 <0.000512>
+getdents(3, /* 16 entries */, 32768)    = 520 <0.000502>
+getdents(3, /* 16 entries */, 32768)    = 552 <0.000753>
+getdents(3, /* 14 entries */, 32768)    = 488 <0.000594>
+getdents(3, /* 0 entries */, 32768)     = 0 <0.000498>
+close(3)                                = 0 <0.000203>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15693, ...}) = 0 <0.003350>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15693, ...}) = 0 <0.000421>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/__pycache__/aliases.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001110>
+fstat(3, {st_mode=S_IFREG|0644, st_size=6343, ...}) = 0 <0.000493>
+ioctl(3, TCGETS, 0x7ffd76d6b8e0)        = -1 ENOSYS (Function not implemented) <0.000422>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000117>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000113>
+fstat(3, {st_mode=S_IFREG|0644, st_size=6343, ...}) = 0 <0.000384>
+read(3, "U\r\r\n\0\0\0\0,\270\225^M=\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 6344) = 6343 <0.001177>
+read(3, "", 1)                          = 0 <0.000484>
+close(3)                                = 0 <0.000462>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings", {st_mode=S_IFDIR|0755, st_size=4032, ...}) = 0 <0.003129>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}) = 0 <0.000955>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}) = 0 <0.000489>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001303>
+fstat(3, {st_mode=S_IFREG|0644, st_size=1643, ...}) = 0 <0.000559>
+ioctl(3, TCGETS, 0x7ffd76d6cd80)        = -1 ENOSYS (Function not implemented) <0.000513>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000178>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000178>
+fstat(3, {st_mode=S_IFREG|0644, st_size=1643, ...}) = 0 <0.000531>
+read(3, "U\r\r\n\0\0\0\0.\270\225^\355\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1644) = 1643 <0.001361>
+read(3, "", 1)                          = 0 <0.000514>
+close(3)                                = 0 <0.000533>
+rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7f89bfc59390}, {SIG_DFL, [], 0}, 8) = 0 <0.000119>
+rt_sigaction(SIGXFSZ, {SIG_IGN, [], SA_RESTORER, 0x7f89bfc59390}, {SIG_DFL, [], 0}, 8) = 0 <0.000117>
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000108>
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000178>
+rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000117>
+rt_sigaction(SIGILL, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000123>
+rt_sigaction(SIGTRAP, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000115>
+rt_sigaction(SIGABRT, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000118>
+rt_sigaction(SIGBUS, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000112>
+rt_sigaction(SIGFPE, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000109>
+rt_sigaction(SIGKILL, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000185>
+rt_sigaction(SIGUSR1, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000211>
+rt_sigaction(SIGSEGV, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000180>
+rt_sigaction(SIGUSR2, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000178>
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f89bfc59390}, 8) = 0 <0.000185>
+rt_sigaction(SIGALRM, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000180>
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000177>
+rt_sigaction(SIGSTKFLT, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000178>
+rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000193>
+rt_sigaction(SIGCONT, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000182>
+rt_sigaction(SIGSTOP, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000183>
+rt_sigaction(SIGTSTP, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000177>
+rt_sigaction(SIGTTIN, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000177>
+rt_sigaction(SIGTTOU, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000242>
+rt_sigaction(SIGURG, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000179>
+rt_sigaction(SIGXCPU, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000178>
+rt_sigaction(SIGXFSZ, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f89bfc59390}, 8) = 0 <0.000178>
+rt_sigaction(SIGVTALRM, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000178>
+rt_sigaction(SIGPROF, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000178>
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000180>
+rt_sigaction(SIGIO, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000178>
+rt_sigaction(SIGPWR, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000177>
+rt_sigaction(SIGSYS, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000184>
+rt_sigaction(SIGRT_2, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000096>
+rt_sigaction(SIGRT_3, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000177>
+rt_sigaction(SIGRT_4, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000186>
+rt_sigaction(SIGRT_5, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000183>
+rt_sigaction(SIGRT_6, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000183>
+rt_sigaction(SIGRT_7, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000182>
+rt_sigaction(SIGRT_8, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000253>
+rt_sigaction(SIGRT_9, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000087>
+rt_sigaction(SIGRT_10, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000260>
+rt_sigaction(SIGRT_11, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000100>
+rt_sigaction(SIGRT_12, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000188>
+rt_sigaction(SIGRT_13, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000184>
+rt_sigaction(SIGRT_14, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000177>
+rt_sigaction(SIGRT_15, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000178>
+rt_sigaction(SIGRT_16, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000180>
+rt_sigaction(SIGRT_17, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000172>
+rt_sigaction(SIGRT_18, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000183>
+rt_sigaction(SIGRT_19, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000188>
+rt_sigaction(SIGRT_20, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000183>
+rt_sigaction(SIGRT_21, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000184>
+rt_sigaction(SIGRT_22, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000177>
+rt_sigaction(SIGRT_23, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000186>
+rt_sigaction(SIGRT_24, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000180>
+rt_sigaction(SIGRT_25, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000252>
+rt_sigaction(SIGRT_26, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000180>
+rt_sigaction(SIGRT_27, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000178>
+rt_sigaction(SIGRT_28, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000177>
+rt_sigaction(SIGRT_29, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000177>
+rt_sigaction(SIGRT_30, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000177>
+rt_sigaction(SIGRT_31, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000179>
+rt_sigaction(SIGRT_32, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.000179>
+rt_sigaction(SIGINT, {0x591660, [], SA_RESTORER, 0x7f89bfc59390}, {SIG_DFL, [], 0}, 8) = 0 <0.000184>
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0 <0.000250>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings", {st_mode=S_IFDIR|0755, st_size=4032, ...}) = 0 <0.002809>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/latin_1.py", {st_mode=S_IFREG|0644, st_size=1264, ...}) = 0 <0.000762>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/latin_1.py", {st_mode=S_IFREG|0644, st_size=1264, ...}) = 0 <0.000644>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.002376>
+fstat(3, {st_mode=S_IFREG|0644, st_size=1906, ...}) = 0 <0.000580>
+ioctl(3, TCGETS, 0x7ffd76d6cd90)        = -1 ENOSYS (Function not implemented) <0.000591>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000247>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000118>
+fstat(3, {st_mode=S_IFREG|0644, st_size=1906, ...}) = 0 <0.000509>
+read(3, "U\r\r\n\0\0\0\0-\270\225^\360\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1907) = 1906 <0.002118>
+read(3, "", 1)                          = 0 <0.000663>
+close(3)                                = 0 <0.000519>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.004113>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/io.py", {st_mode=S_IFREG|0644, st_size=3541, ...}) = 0 <0.001089>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/io.py", {st_mode=S_IFREG|0644, st_size=3541, ...}) = 0 <0.000538>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/__pycache__/io.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001520>
+fstat(3, {st_mode=S_IFREG|0644, st_size=3477, ...}) = 0 <0.000589>
+ioctl(3, TCGETS, 0x7ffd76d6cd90)        = -1 ENOSYS (Function not implemented) <0.000520>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000113>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000178>
+fstat(3, {st_mode=S_IFREG|0644, st_size=3477, ...}) = 0 <0.000612>
+read(3, "U\r\r\n\0\0\0\0\36\270\225^\325\r\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 3478) = 3477 <0.001597>
+read(3, "", 1)                          = 0 <0.000689>
+close(3)                                = 0 <0.000572>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.002389>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/abc.py", {st_mode=S_IFREG|0644, st_size=4489, ...}) = 0 <0.001011>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/abc.py", {st_mode=S_IFREG|0644, st_size=4489, ...}) = 0 <0.000562>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/__pycache__/abc.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001442>
+fstat(3, {st_mode=S_IFREG|0644, st_size=5357, ...}) = 0 <0.000442>
+ioctl(3, TCGETS, 0x7ffd76d6c060)        = -1 ENOSYS (Function not implemented) <0.000454>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000330>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000105>
+fstat(3, {st_mode=S_IFREG|0644, st_size=5357, ...}) = 0 <0.000457>
+read(3, "U\r\r\n\0\0\0\0\35\270\225^\211\21\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 5358) = 5357 <0.001183>
+read(3, "", 1)                          = 0 <0.000724>
+close(3)                                = 0 <0.000630>
+dup(0)                                  = 3 <0.000205>
+close(3)                                = 0 <0.000113>
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0 <0.000123>
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0 <0.000115>
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek) <0.000117>
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0 <0.000115>
+dup(1)                                  = 3 <0.000190>
+close(3)                                = 0 <0.000183>
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0 <0.000186>
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0 <0.000217>
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek) <0.000177>
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0 <0.000174>
+dup(2)                                  = 3 <0.000169>
+close(3)                                = 0 <0.000173>
+fstat(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0 <0.000171>
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0 <0.000166>
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek) <0.000165>
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0 <0.000172>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.002365>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/site.py", {st_mode=S_IFREG|0644, st_size=21338, ...}) = 0 <0.000890>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/site.py", {st_mode=S_IFREG|0644, st_size=21338, ...}) = 0 <0.000539>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/__pycache__/site.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001311>
+fstat(3, {st_mode=S_IFREG|0644, st_size=16719, ...}) = 0 <0.000462>
+ioctl(3, TCGETS, 0x7ffd76d6ce60)        = -1 ENOSYS (Function not implemented) <0.000421>
+brk(0x14d1000)                          = 0x14d1000 <0.000149>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000091>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000144>
+fstat(3, {st_mode=S_IFREG|0644, st_size=16719, ...}) = 0 <0.000522>
+read(3, "U\r\r\n\0\0\0\0\36\270\225^ZS\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 16720) = 16719 <0.001547>
+read(3, "", 1)                          = 0 <0.000520>
+close(3)                                = 0 <0.000515>
+brk(0x14d0000)                          = 0x14d0000 <0.000139>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.002382>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/os.py", {st_mode=S_IFREG|0644, st_size=38995, ...}) = 0 <0.000682>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/os.py", {st_mode=S_IFREG|0644, st_size=38995, ...}) = 0 <0.000560>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/__pycache__/os.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001241>
+fstat(3, {st_mode=S_IFREG|0644, st_size=31420, ...}) = 0 <0.000436>
+ioctl(3, TCGETS, 0x7ffd76d6c130)        = -1 ENOSYS (Function not implemented) <0.000411>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000094>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000094>
+fstat(3, {st_mode=S_IFREG|0644, st_size=31420, ...}) = 0 <0.000474>
+read(3, "U\r\r\n\0\0\0\0\36\270\225^S\230\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 31421) = 31420 <0.001570>
+read(3, "", 1)                          = 0 <0.000556>
+close(3)                                = 0 <0.000495>
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89bff11000 <0.000138>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.002453>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/stat.py", {st_mode=S_IFREG|0644, st_size=5485, ...}) = 0 <0.000798>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/stat.py", {st_mode=S_IFREG|0644, st_size=5485, ...}) = 0 <0.000546>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/__pycache__/stat.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001372>
+fstat(3, {st_mode=S_IFREG|0644, st_size=4395, ...}) = 0 <0.000416>
+ioctl(3, TCGETS, 0x7ffd76d6b400)        = -1 ENOSYS (Function not implemented) <0.000467>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000146>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000198>
+fstat(3, {st_mode=S_IFREG|0644, st_size=4395, ...}) = 0 <0.000474>
+read(3, "U\r\r\n\0\0\0\0\36\270\225^m\25\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4396) = 4395 <0.001212>
+read(3, "", 1)                          = 0 <0.000525>
+close(3)                                = 0 <0.000458>
+mmap(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89bfeec000 <0.000136>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.002897>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/_collections_abc.py", {st_mode=S_IFREG|0644, st_size=26100, ...}) = 0 <0.000919>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/_collections_abc.py", {st_mode=S_IFREG|0644, st_size=26100, ...}) = 0 <0.000401>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/__pycache__/_collections_abc.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001314>
+fstat(3, {st_mode=S_IFREG|0644, st_size=28764, ...}) = 0 <0.000459>
+ioctl(3, TCGETS, 0x7ffd76d6b400)        = -1 ENOSYS (Function not implemented) <0.000369>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000137>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000091>
+fstat(3, {st_mode=S_IFREG|0644, st_size=28764, ...}) = 0 <0.000358>
+read(3, "U\r\r\n\0\0\0\0\35\270\225^\364e\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 28765) = 28764 <0.001616>
+read(3, "", 1)                          = 0 <0.000467>
+close(3)                                = 0 <0.000495>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.002264>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/posixpath.py", {st_mode=S_IFREG|0644, st_size=15627, ...}) = 0 <0.000849>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/posixpath.py", {st_mode=S_IFREG|0644, st_size=15627, ...}) = 0 <0.000496>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/__pycache__/posixpath.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001321>
+fstat(3, {st_mode=S_IFREG|0644, st_size=10451, ...}) = 0 <0.000431>
+ioctl(3, TCGETS, 0x7ffd76d6b400)        = -1 ENOSYS (Function not implemented) <0.000505>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000094>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000203>
+fstat(3, {st_mode=S_IFREG|0644, st_size=10451, ...}) = 0 <0.000587>
+read(3, "U\r\r\n\0\0\0\0\36\270\225^\v=\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 10452) = 10451 <0.001511>
+read(3, "", 1)                          = 0 <0.000406>
+close(3)                                = 0 <0.000452>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.002368>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/genericpath.py", {st_mode=S_IFREG|0644, st_size=4975, ...}) = 0 <0.000902>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/genericpath.py", {st_mode=S_IFREG|0644, st_size=4975, ...}) = 0 <0.000513>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/__pycache__/genericpath.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001151>
+fstat(3, {st_mode=S_IFREG|0644, st_size=4024, ...}) = 0 <0.000461>
+ioctl(3, TCGETS, 0x7ffd76d6a6d0)        = -1 ENOSYS (Function not implemented) <0.000490>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000166>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000174>
+fstat(3, {st_mode=S_IFREG|0644, st_size=4024, ...}) = 0 <0.000497>
+read(3, "U\r\r\n\0\0\0\0\36\270\225^o\23\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4025) = 4024 <0.001218>
+read(3, "", 1)                          = 0 <0.000477>
+close(3)                                = 0 <0.000770>
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f89bfeac000 <0.000153>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.002156>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/_sitebuiltins.py", {st_mode=S_IFREG|0644, st_size=3115, ...}) = 0 <0.000851>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/_sitebuiltins.py", {st_mode=S_IFREG|0644, st_size=3115, ...}) = 0 <0.000422>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3 <0.001290>
+fstat(3, {st_mode=S_IFREG|0644, st_size=3504, ...}) = 0 <0.000470>
+ioctl(3, TCGETS, 0x7ffd76d6c130)        = -1 ENOSYS (Function not implemented) <0.000479>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000171>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000165>
+fstat(3, {st_mode=S_IFREG|0644, st_size=3504, ...}) = 0 <0.000530>
+read(3, "U\r\r\n\0\0\0\0\35\270\225^+\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 3505) = 3504 <0.001332>
+read(3, "", 1)                          = 0 <0.000515>
+close(3)                                = 0 <0.000522>
+stat("/root/.pyenv/versions/3.8.2/bin/pyvenv.cfg", 0x7ffd76d6c910) = -1 ENOENT (No such file or directory) <0.001925>
+stat("/root/.pyenv/versions/3.8.2/pyvenv.cfg", 0x7ffd76d6c910) = -1 ENOENT (No such file or directory) <0.000416>
+geteuid()                               = 0 <0.000093>
+getuid()                                = 0 <0.000091>
+getegid()                               = 0 <0.000091>
+getgid()                                = 0 <0.000091>
+stat("/root/.local/lib/python3.8/site-packages", 0x7ffd76d6cb60) = -1 ENOENT (No such file or directory) <0.000421>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/site-packages", {st_mode=S_IFDIR|0755, st_size=320, ...}) = 0 <0.001478>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/site-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3 <0.001209>
+fstat(3, {st_mode=S_IFDIR|0755, st_size=320, ...}) = 0 <0.000498>
+getdents(3, /* 10 entries */, 32768)    = 336 <0.000439>
+getdents(3, /* 0 entries */, 32768)     = 0 <0.000420>
+close(3)                                = 0 <0.000143>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.001715>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/lib-dynload", {st_mode=S_IFDIR|0755, st_size=2368, ...}) = 0 <0.001718>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/lib-dynload", {st_mode=S_IFDIR|0755, st_size=2368, ...}) = 0 <0.000485>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/lib-dynload", {st_mode=S_IFDIR|0755, st_size=2368, ...}) = 0 <0.000486>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/lib-dynload", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3 <0.003128>
+fstat(3, {st_mode=S_IFDIR|0755, st_size=2368, ...}) = 0 <0.000535>
+getdents(3, /* 16 entries */, 32768)    = 928 <0.000423>
+getdents(3, /* 16 entries */, 32768)    = 1024 <0.000520>
+getdents(3, /* 16 entries */, 32768)    = 1008 <0.000532>
+getdents(3, /* 16 entries */, 32768)    = 992 <0.000477>
+getdents(3, /* 10 entries */, 32768)    = 632 <0.000494>
+getdents(3, /* 0 entries */, 32768)     = 0 <0.000572>
+close(3)                                = 0 <0.000204>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/site-packages", {st_mode=S_IFDIR|0755, st_size=320, ...}) = 0 <0.002796>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/site-packages", {st_mode=S_IFDIR|0755, st_size=320, ...}) = 0 <0.000548>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/site-packages", {st_mode=S_IFDIR|0755, st_size=320, ...}) = 0 <0.000673>
+open("/root/.pyenv/versions/3.8.2/lib/python3.8/site-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3 <0.000798>
+fstat(3, {st_mode=S_IFDIR|0755, st_size=320, ...}) = 0 <0.000555>
+getdents(3, /* 10 entries */, 32768)    = 336 <0.000505>
+getdents(3, /* 0 entries */, 32768)     = 0 <0.000526>
+close(3)                                = 0 <0.000204>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8", {st_mode=S_IFDIR|0755, st_size=6656, ...}) = 0 <0.002404>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/lib-dynload", {st_mode=S_IFDIR|0755, st_size=2368, ...}) = 0 <0.000735>
+stat("/root/.pyenv/versions/3.8.2/lib/python3.8/site-packages", {st_mode=S_IFDIR|0755, st_size=320, ...}) = 0 <0.000799>
+stat("./hello.py", {st_mode=S_IFREG|0755, st_size=22, ...}) = 0 <0.000749>
+open("./hello.py", O_RDONLY|O_CLOEXEC)  = 3 <0.000613>
+fstat(3, {st_mode=S_IFREG|0755, st_size=22, ...}) = 0 <0.000511>
+ioctl(3, TCGETS, 0x7ffd76d6d9f0)        = -1 ENOSYS (Function not implemented) <0.000540>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000179>
+lseek(3, -22, SEEK_END)                 = 0 <0.000606>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000086>
+read(3, "print('Hello, world!')", 4096) = 22 <0.000699>
+lseek(3, 0, SEEK_END)                   = 22 <0.000676>
+lseek(3, 0, SEEK_CUR)                   = 22 <0.000165>
+lseek(3, 0, SEEK_SET)                   = 0 <0.000170>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000164>
+fstat(3, {st_mode=S_IFREG|0755, st_size=22, ...}) = 0 <0.000507>
+read(3, "print('Hello, world!')", 23)   = 22 <0.000501>
+read(3, "", 1)                          = 0 <0.000461>
+close(3)                                = 0 <0.000503>
+stat("./hello.py", {st_mode=S_IFREG|0755, st_size=22, ...}) = 0 <0.000830>
+readlink("./hello.py", 0x7ffd76d5d460, 4096) = -1 EINVAL (Invalid argument) <0.000139>
+getcwd("/root/src", 4096)               = 10 <0.000139>
+lstat("/root/src/hello.py", {st_mode=S_IFREG|0755, st_size=22, ...}) = 0 <0.000918>
+open("./hello.py", O_RDONLY)            = 3 <0.000426>
+fcntl(3, F_GETFD)                       = 0 <0.000136>
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0 <0.000091>
+fstat(3, {st_mode=S_IFREG|0755, st_size=22, ...}) = 0 <0.000492>
+ioctl(3, TCGETS, 0x7ffd76d6e410)        = -1 ENOSYS (Function not implemented) <0.000487>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000182>
+fstat(3, {st_mode=S_IFREG|0755, st_size=22, ...}) = 0 <0.000487>
+read(3, "print('Hello, world!')", 4096) = 22 <0.000726>
+lseek(3, 0, SEEK_SET)                   = 0 <0.000175>
+read(3, "print('Hello, world!')", 4096) = 22 <0.000515>
+read(3, "", 4096)                       = 0 <0.000507>
+read(3, "", 4096)                       = 0 <0.000624>
+read(3, "", 4096)                       = 0 <0.000680>
+close(3)                                = 0 <0.000877>
+write(1, "Hello, world!\n", 14)         = 14 <0.000200>
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f89bfc59390}, {0x591660, [], SA_RESTORER, 0x7f89bfc59390}, 8) = 0 <0.000142>
+sigaltstack(NULL, {ss_sp=0x148fa90, ss_flags=0, ss_size=16384}) = 0 <0.000154>
+sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0 <0.000159>
+munmap(0x7f89bfeac000, 262144)          = 0 <0.000198>
+exit_group(0)                           = ?
++++ exited with 0 +++
