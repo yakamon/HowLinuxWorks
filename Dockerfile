@@ -2,9 +2,18 @@ ARG UBUNTU_VERSION=16.04
 FROM ubuntu:${UBUNTU_VERSION}
 
 RUN apt update -y && apt upgrade -y
+
+# Handson requirements
 RUN apt install -y \
     binutils \
     build-essential \
+    strace \
+    sysstat \
+    zsh
+
+# Pyenv dependencies
+RUN apt install -y \
+    # build-essential \
     curl \
     git \
     libbz2-dev \
@@ -17,13 +26,12 @@ RUN apt install -y \
     libssl-dev \
     llvm \
     make \
-    strace \
-    sysstat \
+    python-openssl \
     tk-dev \
     wget \
     xz-utils \
-    zlib1g-dev \
-    zsh
+    zlib1g-dev
+
 RUN apt autoremove -y
 
 USER root
