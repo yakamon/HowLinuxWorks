@@ -38,5 +38,5 @@ USER root
 WORKDIR /root
 
 ENV SETUP="/root/setup.sh"
-COPY ./root/setup.sh ${SETUP}
+COPY setup.sh ${SETUP}
 RUN ${SETUP}
