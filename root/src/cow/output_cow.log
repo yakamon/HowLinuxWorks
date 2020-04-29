@@ -1,0 +1,22 @@
+*** free memory info before fork ***:
+              total        used        free      shared  buff/cache   available
+Mem:        2037260      384452     1183868         784      468940     1507924
+Swap:       1048572           0     1048572
+
+*** child ps info before memory access ***:
+  PID COMMAND            VSZ   RSS  MAJFL  MINFL
+ 4724 cow             106764 102484     0     23
+
+*** free memory info before memory access ***:
+              total        used        free      shared  buff/cache   available
+Mem:        2037260      384344     1183976         784      468940     1508032
+Swap:       1048572           0     1048572
+
+*** child ps info after memory access ***:
+  PID COMMAND            VSZ   RSS  MAJFL  MINFL
+ 4724 cow             106764 103308     0  25631
+
+*** free memory info after memory access ***:
+              total        used        free      shared  buff/cache   available
+Mem:        2037260      486992     1081328         784      468940     1405384
+Swap:       1048572           0     1048572

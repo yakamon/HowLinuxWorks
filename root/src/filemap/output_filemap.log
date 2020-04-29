@@ -1,0 +1,47 @@
+*** memory map before mapping file
+00400000-00401000 r-xp 00000000 00:50 2524765                            /root/src/filemap/filemap
+00601000-00602000 r--p 00001000 00:50 2524765                            /root/src/filemap/filemap
+00602000-00603000 rw-p 00002000 00:50 2524765                            /root/src/filemap/filemap
+02337000-02359000 rw-p 00000000 00:00 0                                  [heap]
+7fee459a5000-7fee45b65000 r-xp 00000000 08:01 787402                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fee45b65000-7fee45d65000 ---p 001c0000 08:01 787402                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fee45d65000-7fee45d69000 r--p 001c0000 08:01 787402                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fee45d69000-7fee45d6b000 rw-p 001c4000 08:01 787402                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fee45d6b000-7fee45d6f000 rw-p 00000000 00:00 0 
+7fee45d6f000-7fee45d95000 r-xp 00000000 08:01 787382                     /lib/x86_64-linux-gnu/ld-2.23.so
+7fee45f8b000-7fee45f8e000 rw-p 00000000 00:00 0 
+7fee45f94000-7fee45f95000 r--p 00025000 08:01 787382                     /lib/x86_64-linux-gnu/ld-2.23.so
+7fee45f95000-7fee45f96000 rw-p 00026000 08:01 787382                     /lib/x86_64-linux-gnu/ld-2.23.so
+7fee45f96000-7fee45f97000 rw-p 00000000 00:00 0 
+7ffca49b6000-7ffca49d7000 rw-p 00000000 00:00 0                          [stack]
+7ffca49d7000-7ffca49da000 r--p 00000000 00:00 0                          [vvar]
+7ffca49da000-7ffca49dc000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+*** succeeded to map file: address = 0x7fee3f5a5000; size = 6400000 ***
+
+*** memory map after mapping file ***
+00400000-00401000 r-xp 00000000 00:50 2524765                            /root/src/filemap/filemap
+00601000-00602000 r--p 00001000 00:50 2524765                            /root/src/filemap/filemap
+00602000-00603000 rw-p 00002000 00:50 2524765                            /root/src/filemap/filemap
+02337000-02359000 rw-p 00000000 00:00 0                                  [heap]
+7fee3f5a5000-7fee459a5000 rw-s 00000000 00:50 2523437                    /root/src/filemap/testfile
+7fee459a5000-7fee45b65000 r-xp 00000000 08:01 787402                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fee45b65000-7fee45d65000 ---p 001c0000 08:01 787402                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fee45d65000-7fee45d69000 r--p 001c0000 08:01 787402                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fee45d69000-7fee45d6b000 rw-p 001c4000 08:01 787402                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fee45d6b000-7fee45d6f000 rw-p 00000000 00:00 0 
+7fee45d6f000-7fee45d95000 r-xp 00000000 08:01 787382                     /lib/x86_64-linux-gnu/ld-2.23.so
+7fee45f8b000-7fee45f8e000 rw-p 00000000 00:00 0 
+7fee45f94000-7fee45f95000 r--p 00025000 08:01 787382                     /lib/x86_64-linux-gnu/ld-2.23.so
+7fee45f95000-7fee45f96000 rw-p 00026000 08:01 787382                     /lib/x86_64-linux-gnu/ld-2.23.so
+7fee45f96000-7fee45f97000 rw-p 00000000 00:00 0 
+7ffca49b6000-7ffca49d7000 rw-p 00000000 00:00 0                          [stack]
+7ffca49d7000-7ffca49da000 r--p 00000000 00:00 0                          [vvar]
+7ffca49da000-7ffca49dc000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+*** file contents before overwrite mapped region: hello
+
+*** overwritten mapped region with: HELLO
+

@@ -1,0 +1,56 @@
+execve("./mmap", ["./mmap"], [/* 17 vars */]) = 0
+brk(NULL)                               = 0x1e80000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=23825, ...}) = 0
+mmap(NULL, 23825, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f29a2fde000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29a2fdd000
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f29a29f5000
+mprotect(0x7f29a2bb5000, 2097152, PROT_NONE) = 0
+mmap(0x7f29a2db5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f29a2db5000
+mmap(0x7f29a2dbb000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f29a2dbb000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29a2fdc000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29a2fdb000
+arch_prctl(ARCH_SET_FS, 0x7f29a2fdc700) = 0
+mprotect(0x7f29a2db5000, 16384, PROT_READ) = 0
+mprotect(0x600000, 4096, PROT_READ)     = 0
+mprotect(0x7f29a2fe4000, 4096, PROT_READ) = 0
+munmap(0x7f29a2fde000, 23825)           = 0
+getpid()                                = 1282
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 2), ...}) = 0
+brk(NULL)                               = 0x1e80000
+brk(0x1ea1000)                          = 0x1ea1000
+write(1, "*** memory map before memory all"..., 44) = 44
+rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTORER, 0x7f29a2a2a4b0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x7f29a2a2a4b0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffd6da66e7c) = 1283
+wait4(1283, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 1283
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f29a2a2a4b0}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f29a2a2a4b0}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1283, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+mmap(NULL, 104857600, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f299c5f5000
+write(1, "\n", 1)                       = 1
+write(1, "*** succeeded to allocate memory"..., 81) = 81
+write(1, "\n", 1)                       = 1
+write(1, "*** memory map after memory allo"..., 39) = 39
+rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTORER, 0x7f29a2a2a4b0}, {SIG_DFL, [], SA_RESTORER, 0x7f29a2a2a4b0}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x7f29a2a2a4b0}, {SIG_DFL, [], SA_RESTORER, 0x7f29a2a2a4b0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_PARENT_SETTID|SIGCHLD, parent_tidptr=0x7ffd6da66e7c) = 1285
+wait4(1285, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 1285
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f29a2a2a4b0}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f29a2a2a4b0}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1285, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+munmap(0x7f299c5f5000, 104857600)       = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

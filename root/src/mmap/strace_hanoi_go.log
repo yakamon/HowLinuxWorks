@@ -1,0 +1,237 @@
+execve("./hanoi_go", ["./hanoi_go", "3"], [/* 17 vars */]) = 0
+arch_prctl(ARCH_SET_FS, 0x56b230)       = 0
+sched_getaffinity(0, 8192, [f, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]) = 16
+openat(AT_FDCWD, "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size", O_RDONLY) = 3
+read(3, "2097152\n", 20)                = 8
+close(3)                                = 0
+uname({sysname="Linux", nodename="fb3be426daab", ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6162197000
+mmap(NULL, 131072, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6162177000
+mmap(NULL, 1048576, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6162077000
+mmap(NULL, 8388608, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6161877000
+mmap(NULL, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f615d877000
+mmap(NULL, 536870912, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f613d877000
+mmap(0xc000000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xc000000000
+mmap(0xc000000000, 67108864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xc000000000
+mmap(NULL, 33554432, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f613b877000
+mmap(NULL, 2164744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f613b666000
+mmap(0x7f6162177000, 131072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6162177000
+mmap(0x7f61620f7000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f61620f7000
+mmap(0x7f6161c7d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6161c7d000
+mmap(0x7f615f8a7000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f615f8a7000
+mmap(0x7f614d9f7000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f614d9f7000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f613b566000
+mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f613b556000
+mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f613b546000
+clock_gettime(CLOCK_MONOTONIC, {54178, 392586915}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 394038615}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 396143315}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 397792915}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 398972315}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 400335715}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 401545615}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 402708215}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 403794915}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 405130415}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 406314815}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 407485515}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 408529815}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 409626115}) = 0
+rt_sigprocmask(SIG_SETMASK, NULL, [], 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 411775915}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 412786215}) = 0
+sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+sigaltstack({ss_sp=0xc000002000, ss_flags=0, ss_size=32768}, NULL) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+gettid()                                = 3214
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGILL, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTRAP, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGABRT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGABRT, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGBUS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGBUS, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGFPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGFPE, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSEGV, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR2, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGALRM, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTKFLT, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGURG, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGURG, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXCPU, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGVTALRM, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGPROF, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPROF, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGIO, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGIO, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGPWR, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPWR, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGSYS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSYS, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRTMIN, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_1, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_2, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_3, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_4, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_5, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_6, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_7, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_8, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_9, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_10, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_11, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_12, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_13, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_14, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_15, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_16, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_17, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_18, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_19, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_20, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_21, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_22, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_23, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_24, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_25, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_26, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_27, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_28, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_29, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_30, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_31, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_32, {0x45d8e0, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x45da10}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[], [], 8) = 0
+clone(child_stack=0xc00003a000, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM) = 3215
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+--- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=3214, si_uid=0} ---
+rt_sigreturn({mask=[]})                 = 0
+--- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=3214, si_uid=0} ---
+rt_sigreturn({mask=[]})                 = 0
+--- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=3214, si_uid=0} ---
+rt_sigreturn({mask=[]})                 = 0
+--- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=3214, si_uid=0} ---
+rt_sigreturn({mask=[]})                 = 0
+--- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=3214, si_uid=0} ---
+rt_sigreturn({mask=[]})                 = 0
+--- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=3214, si_uid=0} ---
+rt_sigreturn({mask=[]})                 = 0
+--- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=3214, si_uid=0} ---
+rt_sigreturn({mask=[]})                 = 0
+--- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=3214, si_uid=0} ---
+rt_sigreturn({mask=[]})                 = 0
+--- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=3214, si_uid=0} ---
+rt_sigreturn({mask=[]})                 = 0
+rt_sigprocmask(SIG_SETMASK, ~[], [], 8) = 0
+clone(child_stack=0xc00003c000, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM) = 3216
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+futex(0xc00002a4c8, FUTEX_WAKE_PRIVATE, 1) = 1
+clock_gettime(CLOCK_MONOTONIC, {54178, 532228615}) = 0
+clock_gettime(CLOCK_MONOTONIC, {54178, 533020915}) = 0
+futex(0xc000080148, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0xc000080148, FUTEX_WAKE_PRIVATE, 1) = 1
+clock_gettime(CLOCK_MONOTONIC, {54178, 536892415}) = 0
+readlinkat(AT_FDCWD, "/proc/self/exe", "/root/src/mmap/hanoi_go", 128) = 23
+fcntl(0, F_GETFL)                       = 0x8002 (flags O_RDWR|O_LARGEFILE)
+futex(0xc000080148, FUTEX_WAKE_PRIVATE, 1) = 1
+fcntl(1, F_GETFL)                       = 0x8002 (flags O_RDWR|O_LARGEFILE)
+fcntl(2, F_GETFL)                       = 0x8002 (flags O_RDWR|O_LARGEFILE)
+write(1, "&{[7 5 3]} &{[]} &{[]}\n", 23) = 23
+write(1, "&{[7 5 3]} &{[]} &{[]}\n", 23) = 23
+write(1, "&{[7 5]} &{[]} &{[3]}\n", 22) = 22
+write(1, "&{[7 5]} &{[3]} &{[]}\n", 22) = 22
+write(1, "&{[7]} &{[3]} &{[5]}\n", 21)  = 21
+futex(0x56abf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x56aaf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(1, "&{[3]} &{[7]} &{[5]}\n", 21)  = 21
+futex(0x56abf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x56aaf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(1, "&{[]} &{[7]} &{[5 3]}\n", 22) = 22
+futex(0x56abf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x56aaf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(1, "&{[7]} &{[5 3]} &{[]}\n", 22) = 22
+futex(0x56abf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x56aaf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(1, "&{[]} &{[5 3]} &{[7]}\n", 22) = 22
+futex(0x56abf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x56aaf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(1, "&{[5 3]} &{[7]} &{[]}\n", 22) = 22
+futex(0x56abf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x56aaf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(1, "&{[5]} &{[7]} &{[3]}\n", 21)  = 21
+futex(0x56abf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x56aaf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(1, "&{[5]} &{[3]} &{[7]}\n", 21)  = 21
+futex(0x56abf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x56aaf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(1, "&{[]} &{[3]} &{[7 5]}\n", 22) = 22
+futex(0x56abf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x56aaf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(1, "&{[3]} &{[]} &{[7 5]}\n", 22) = 22
+futex(0x56abf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x56aaf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(1, "&{[]} &{[]} &{[7 5 3]}\n", 23) = 23
+futex(0x56abf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x56aaf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+write(1, "&{[]} &{[]} &{[7 5 3]}\n", 23) = 23
+futex(0x56abf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+futex(0x56aaf8, FUTEX_WAKE_PRIVATE, 1)  = 1
+exit_group(0)                           = ?
++++ exited with 0 +++
