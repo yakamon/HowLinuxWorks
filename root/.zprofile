@@ -1,3 +1,6 @@
+# prompt
+export PROMPT="%n@%M %F{4}%~%F{sgr0} $ "
+
 # load profile
 export ZPROFILE="${HOME}/.zprofile"
 export ZSHRC="${HOME}/.zshrc"
