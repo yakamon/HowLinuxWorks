@@ -1,4 +1,5 @@
 .vscode
+root/.bash_history
 root/.cache
 root/.pyenv
 root/.python_history
